@@ -1,0 +1,9 @@
+.company-logo {
+    height: auto;
+    width: 200px;
+    border-radius: 5%;
+}
+
+.navbar {
+    background-color: white;
+}
