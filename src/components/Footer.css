@@ -1,0 +1,69 @@
+#top-row {
+    background: url(../utils/dark-paths.png);
+    width: auto;
+    /* border-bottom-color:#92a8d1; */
+    /* background-image: image('../utils/subtle_zebra_3d.png') */
+}
+#bottom-row {
+    background: url(../utils/subtle_zebra_3d.png);
+}
+.company-logo {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+#line-break {
+    background-color: #92a8d1;
+}
+.container {
+    max-width: 100%;
+    /* text-align: center; */
+}
+.call-email {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: white;
+    font-weight: bold;
+}
+#phone-number {
+    color: lightgrey;
+    font-weight: normal;
+}
+#email-text {
+    color: lightgrey;
+    font-weight: normal;
+}
+.visit-address {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: white;
+    font-weight: bold;
+}
+#visit-text {
+    color: lightgrey;
+    font-weight: normal;
+}
+.social-media {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5%;
+
+
+}
+#socialMedia {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bottomLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#bottom-middle-info {
+    padding: 15px 0px 0px 10px;
+}
+#bottom-email-text {
+    text-align: left;
+    
+}

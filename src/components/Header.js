@@ -7,7 +7,7 @@ export class Header extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-light">
-        <img className="company-logo" src={logo} alt='logo'></img>       
+        <img className="company-logo" src={logo} alt='logo'></img>    
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ml-auto">
               <a className="nav-item nav-link" href="/">
