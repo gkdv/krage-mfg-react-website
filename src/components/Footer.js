@@ -4,8 +4,6 @@ import LogoMakr_1 from "../utils/LogoMakr_1.png";
 import Krage_Logo from "../utils/Krage_Logo.png";
 import linkedin from "../utils/linkedin.png";
 import facebook from "../utils/facebook.png";
-import phone from "../utils/phone.png";
-import email from "../utils/email.png";
 
 
 export class Footer extends Component {
@@ -14,8 +12,8 @@ export class Footer extends Component {
       <div>
         <div className="container">
           <div className="row" id="top-row">
-            <div className="col">
-              <img className="company-logo" src={LogoMakr_1} alt="logo"></img>
+            <div className="col" id="connect-logo-div">
+              <img className="connect-with-us" src={LogoMakr_1} alt="logo"></img>
             </div>
 
             <div className="col call-email">
@@ -26,7 +24,7 @@ export class Footer extends Component {
               <br />
               <text>EMAIL</text>
               <br />
-              <text id="email-text">krage@kragemanufacturing.com</text>
+              <text id="email-text">sales@kragemanufacturing.com</text>
             </div>
             <div className="col visit-address">
               <text>VISIT</text>
@@ -47,7 +45,7 @@ export class Footer extends Component {
 
           <div className="row" id="bottom-row">
             <div className="col" id="bottomLogo">
-              <img className="company-logo" src={Krage_Logo} alt="logo"></img>
+              <img className="company-logo-bottom" src={Krage_Logo} alt="logo"></img>
             </div>
             <div className="col" id="bottom-middle-info">
               <p className="bottom-email-text">1 Eaton Way<br/>Pueblo, CO 81005</p>

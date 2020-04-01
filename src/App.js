@@ -1,8 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Header from './components/Header';
-import Gallery from './components/Gallery';
-import Footer from './components/Footer';
+// import Header from './components/Header';
+// import Gallery from './components/Gallery';
+// import Footer from './components/Footer';
+import Main from './components/pages/Main';
+import Contact from './components/pages/Contact'
+
+
 // import Portfolio from './components/pages/Portfolio'
 // import Contact from './components/pages/contact'
 import './App.css'
@@ -14,13 +18,13 @@ function App() {
       <div >
         <Route exact path='/' render={ () =>
           <React.Fragment>
-            <Header />
+            <Main />
+            {/* <Header />
             <Gallery />
-            <Footer />
+            <Footer /> */}
           </React.Fragment>
         } />
-        {/* <Route path='/portfolio' component={Portfolio} /> */}
-        {/* <Route path='/contact' component={Contact} /> */}
+        <Route path='/Contact' component={Contact} />
 
       </div>
     </Router>

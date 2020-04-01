@@ -1,15 +1,14 @@
 import React, { Component } from 'react'
-import Header from './Header';
 
-class contact extends Component {
+export class Contact extends Component {
     render() {
         return (
             <div>
-                <Header />
+                <p>Hello</p>
                 
             </div>
         )
     }
 }
 
-export default contact
+export default Contact
