@@ -1,0 +1,15 @@
+#p1-careers {
+    font-weight: bold;
+    font-size: 40px;
+}
+#row1-careers-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+    background: linear-gradient(to right,rgba(192, 192, 192, 1), rgba(1, 23, 63, 0)), url(../utils/press_brake_1.jpg);
+    width: auto;
+    color: white;    
+}
+
