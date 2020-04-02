@@ -5,7 +5,6 @@ import Krage_Logo from "../utils/Krage_Logo.png";
 import linkedin from "../utils/linkedin.png";
 import facebook from "../utils/facebook.png";
 
-
 export class Footer extends Component {
   render() {
     return (
@@ -13,7 +12,11 @@ export class Footer extends Component {
         <div className="container">
           <div className="row" id="top-row">
             <div className="col" id="connect-logo-div">
-              <img className="connect-with-us" src={LogoMakr_1} alt="logo"></img>
+              <img
+                className="connect-with-us"
+                src={LogoMakr_1}
+                alt="logo"
+              ></img>
             </div>
 
             <div className="col call-email">
@@ -33,7 +36,9 @@ export class Footer extends Component {
               <br />
               <text id="email-text">Pueblo, CO 81005</text>
               <br />
-              <a id="email-text">See Map</a>
+              <a href="/Contact" id="email-text">
+                See Map
+              </a>
             </div>
           </div>
 
@@ -45,15 +50,33 @@ export class Footer extends Component {
 
           <div className="row" id="bottom-row">
             <div className="col" id="bottomLogo">
-              <img className="company-logo-bottom" src={Krage_Logo} alt="logo"></img>
+              <a href="/">
+                <img
+                  className="company-logo-bottom"
+                  src={Krage_Logo}
+                  alt="logo"
+                ></img>
+              </a>
             </div>
             <div className="col" id="bottom-middle-info">
-              <p className="bottom-email-text">1 Eaton Way<br/>Pueblo, CO 81005</p>
-              <p className="bottom-email-text">719.948.2001<br/>krage@kragemanufacturing.com</p>
+              <p className="bottom-email-text">
+                1 Eaton Way
+                <br />
+                Pueblo, CO 81005
+              </p>
+              <p className="bottom-email-text">
+                719.948.2001
+                <br />
+                krage@kragemanufacturing.com
+              </p>
             </div>
             <div className="col" id="socialMedia">
-              <img className="social-media" src={linkedin} alt="logo"></img>
-              <img className="social-media" src={facebook} alt="logo"></img>
+              <a href="https://www.linkedin.com/company/krage-manufacturing-llc/about/">
+                <img className="social-media" src={linkedin} alt="logo"></img>
+              </a>
+              <a href="https://www.facebook.com/pages/Krage-Manufacturing/169572146393723">
+                <img className="social-media" src={facebook} alt="logo"></img>
+              </a>
             </div>
           </div>
         </div>

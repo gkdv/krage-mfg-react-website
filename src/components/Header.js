@@ -11,13 +11,19 @@ export class Header extends Component {
         <div className="row" id="top-break">
           <div className="col-sm-12">
             <div id="socialMedia-header">
-              <img className="social-media" src={linkedin} alt="logo"></img>
-              <img className="social-media" src={facebook} alt="logo"></img>
+              <a href="https://www.linkedin.com/company/krage-manufacturing-llc/about/">
+                <img className="social-media" src={linkedin} alt="logo"></img>
+              </a>
+              <a href="https://www.facebook.com/pages/Krage-Manufacturing/169572146393723">
+                <img className="social-media" src={facebook} alt="logo"></img>
+              </a>
             </div>
           </div>
         </div>
         <nav className="navbar navbar-expand-lg navbar-light">
-          <img className="company-logo" src={logo} alt="logo"></img>
+          <a href="/">
+            <img className="company-logo" src={logo} alt="logo"></img>
+          </a>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ml-auto">
               <a className="nav-item nav-link" href="/">

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 // import Footer from './components/Footer';
 import Main from './components/pages/Main';
 import Contact from './components/pages/Contact'
+import Careers from './components/pages/Careers'
 
 
 // import Portfolio from './components/pages/Portfolio'
@@ -19,10 +20,10 @@ function App() {
         <Route exact path='/' render={ () =>
           <React.Fragment>
             <Main />
-
           </React.Fragment>
         } />
         <Route path='/Contact' component={Contact} />
+        <Route path='/Careers' component={Careers} />
 
       </div>
     </Router>

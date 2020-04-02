@@ -1,0 +1,49 @@
+#p1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+#p2 {
+    font-size: 20px;
+}
+#row1-content-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10%;
+    background: url(../utils/dark-paths.png);
+    width: auto;
+    color: white;
+    font-size: 30px;
+}
+#title-content-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#para-content-style {
+    text-align: center;
+}
+.btn {
+    background-color: silver;
+    color: black;
+    border-color: silver;
+    /* border-radius: 0%; */
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.6s;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.btn:hover {
+    background-color: #01173f;
+    color: white;
+    border-color: #01173f;
+
+  }
+.card {
+    position: relative;
+    bottom: 20px;
+    margin: 0 10%;
+}
