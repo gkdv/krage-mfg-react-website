@@ -19,9 +19,7 @@ function App() {
         <Route exact path='/' render={ () =>
           <React.Fragment>
             <Main />
-            {/* <Header />
-            <Gallery />
-            <Footer /> */}
+
           </React.Fragment>
         } />
         <Route path='/Contact' component={Contact} />
