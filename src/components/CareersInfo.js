@@ -37,6 +37,15 @@ export class CareersInfo extends Component {
             You can submit your resume by emailing
             careers@kragemanufacturing.com or click the link below!
           </p>
+          <br/>
+          <a
+            href="mailto:sales@kragemanufacturing.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-primary"
+          >
+            Apply here
+          </a>
         </div>
         <div className="row">
           <div className="col-sm-6" id="careers-small-img-carousel">
@@ -82,7 +91,7 @@ export class CareersInfo extends Component {
           </div>
           <div className="col-sm-6" id="careers-small-carousel-text">
             <p id="careers-small-carousel-right-text">Our Facility</p>
-            <p id="careers-small-carousel-right-text">Our Facility</p>
+            <p>text describing our facility and work environment</p>
           </div>
         </div>
       </div>

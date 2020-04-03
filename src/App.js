@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Main from './components/pages/Main';
 import Contact from './components/pages/Contact'
 import Careers from './components/pages/Careers'
+import Services from './components/pages/Services'
+import Portfolio from './components/pages/Portfolio'
 
 
 // import Portfolio from './components/pages/Portfolio'
@@ -24,6 +26,8 @@ function App() {
         } />
         <Route path='/Contact' component={Contact} />
         <Route path='/Careers' component={Careers} />
+        <Route path='/Services' component={Services} />
+        <Route path='/Portfolio' component={Portfolio} />
 
       </div>
     </Router>
