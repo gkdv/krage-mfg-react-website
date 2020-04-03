@@ -47,7 +47,7 @@ export class ContactInfo extends Component {
                   </h5>
                   <p className="card-text" id="para-content-style">
                     Reach out to or our sales and design team via email. We'll
-                    get back to you and start our conversation.
+                    get back to you with how our services can help you.
                   </p>
                   <a href="mailto:sales@kragemanufacturing.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                     email us

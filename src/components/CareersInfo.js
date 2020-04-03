@@ -1,7 +1,16 @@
 import React, { Component } from "react";
 import "../components/CareersInfo.css";
 import thumb_trump_laser400 from "../utils/thumb_trump_laser400.JPG";
-
+import plant_floor_2_400x300 from "../utils/plant_floor_2_400x300.JPG";
+import bystronic_press1_400x300 from "../utils/bystronic_press1_400x300.JPG";
+// import press_brake_1259x841 from "../utils/press_brake_1259x841.jpg";
+import {
+  MDBCarousel,
+  MDBCarouselInner,
+  MDBCarouselItem,
+  MDBView,
+  MDBContainer
+} from "mdbreact";
 
 export class CareersInfo extends Component {
   render() {
@@ -30,8 +39,51 @@ export class CareersInfo extends Component {
           </p>
         </div>
         <div className="row">
-            <p>dkdkdkdk</p>
-            <img className="careers-400px-img" src={thumb_trump_laser400} alt="logo"></img>
+          <div className="col-sm-6" id="careers-small-img-carousel">
+            <MDBContainer id="gallery-container">
+              <MDBCarousel
+                activeItem={1}
+                length={3}
+                showControls={true}
+                showIndicators={true}
+                className="z-depth-1"
+              >
+                <MDBCarouselInner>
+                  <MDBCarouselItem itemId="1">
+                    <MDBView>
+                      <img
+                        className="d-block w-100"
+                        src={thumb_trump_laser400}
+                        alt="First slide"
+                      />
+                    </MDBView>
+                  </MDBCarouselItem>
+                  <MDBCarouselItem itemId="2">
+                    <MDBView>
+                      <img
+                        className="d-block w-100"
+                        src={plant_floor_2_400x300}
+                        alt="Second slide"
+                      />
+                    </MDBView>
+                  </MDBCarouselItem>
+                  <MDBCarouselItem itemId="3">
+                    <MDBView>
+                      <img
+                        className="d-block w-100"
+                        src={bystronic_press1_400x300}
+                        alt="Third slide"
+                      />
+                    </MDBView>
+                  </MDBCarouselItem>
+                </MDBCarouselInner>
+              </MDBCarousel>
+            </MDBContainer>
+          </div>
+          <div className="col-sm-6" id="careers-small-carousel-text">
+            <p id="careers-small-carousel-right-text">Our Facility</p>
+            <p id="careers-small-carousel-right-text">Our Facility</p>
+          </div>
         </div>
       </div>
     );
