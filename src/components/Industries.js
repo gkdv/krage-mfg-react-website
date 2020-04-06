@@ -8,32 +8,36 @@ export class Industries extends Component {
       <div style={style}>
         <Card
           cardInfo={{
-            src: plant_floor_2_400x300,
-            alt: "image",
-            cardTitle: "Electric Utility"
-          }}
+              src: plant_floor_2_400x300,
+              alt: "image",
+              cardTitle: "Electric Utility",
+            }}
+            cardStyle={cardStyle}
         />
         <Card
           cardInfo={{
-            src: plant_floor_2_400x300,
-            alt: "image",
-            cardTitle: "Commercial Cooling and Heating"
-          }}
+              src: plant_floor_2_400x300,
+              alt: "image",
+              cardTitle: "Commercial Cooling and Heating",
+            }}
+            cardStyle={cardStyle}
         />
         <Card
           cardInfo={{
-            src: plant_floor_2_400x300,
-            alt: "image",
-            cardTitle: "Industrial Design/Architecture"
-          }}
+              src: plant_floor_2_400x300,
+              alt: "image",
+              cardTitle: "Industrial Design & Architecture",
+            }}
+            cardStyle={cardStyle}
         />
         <Card
           cardInfo={{
-            src: plant_floor_2_400x300,
-            alt: "image",
-            cardTitle: "Commercial/Industrial Construction"
-          }}
-        />
+              src: plant_floor_2_400x300,
+              alt: "image",
+              cardTitle: "Commercial & Industrial Construction",
+            }}
+            cardStyle={cardStyle}
+            />
       </div>
     );
   }
@@ -42,9 +46,14 @@ export class Industries extends Component {
 export default Industries;
 
 const style = {
-    display: 'flex',
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    margin: '5%'
-}
+  display: "flex",
+  flexDirection: "row",
+  flexWrap: "wrap",
+  justifyContent: "space-around",
+  margin: "5%",
+};
+
+const cardStyle = {
+  width: "18rem",
+  borderStyle: "none",
+};

@@ -4,6 +4,7 @@ import Gallery from '../Gallery';
 import Footer from '../Footer';
 import Industries from '../Industries';
 import Capabilities from '../Capabilities';
+import TypicalParts from '../TypicalParts';
 
 export class Main extends Component {
     render() {
@@ -13,6 +14,7 @@ export class Main extends Component {
                 <Gallery />
                 <Industries />
                 <Capabilities />
+                <TypicalParts />
                 <Footer />
             </div>
         )
