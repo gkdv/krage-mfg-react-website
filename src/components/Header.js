@@ -20,7 +20,7 @@ export class Header extends Component {
             </div>
           </div>
         </div>
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-light col-sm-12">
           <a href="/">
             <img className="company-logo" src={logo} alt="logo"></img>
           </a>
