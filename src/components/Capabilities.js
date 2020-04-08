@@ -133,3 +133,9 @@ const cardStyle = {
 };
 
 const titleStyle = {};
+
+const headerStyle = {
+  display: 'flex',
+  justifyContent: 'center',
+  backgroundImage: 'linear-gradient(to bottom left,silver , white)'
+}

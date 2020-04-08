@@ -16,7 +16,7 @@ export class LightBox extends Component {
   render() {
     return (
       <div>
-        <h2 className="font-weight-bold my-5 text-center">Typical Parts</h2>
+        <h2 className="font-weight-bold my-5 text-center" style={headerStyle}>Typical Parts</h2>
 
         {/* <!--First row--> */}
         <div className="row">
@@ -148,4 +148,9 @@ export default LightBox;
 const style = {
     display: "flex",
     flexWrap: "wrap"
+}
+const headerStyle = {
+  display: 'flex',
+  justifyContent: 'center',
+  backgroundImage: 'linear-gradient(to bottom left,silver , white)'
 }
