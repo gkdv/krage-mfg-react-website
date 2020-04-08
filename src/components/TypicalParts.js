@@ -1,10 +1,22 @@
 import React, { Component } from "react";
+import typical_parts1 from "../utils/typical_parts1.JPG";
+import typical_parts2 from "../utils/typical_parts2.JPG";
+import typical_parts3 from "../utils/typical_parts3.JPG";
+import typical_parts4 from "../utils/typical_parts4.JPG";
+import typical_parts5 from "../utils/typical_parts5.JPG";
+import typical_parts6 from "../utils/typical_parts6.JPG";
+import typical_parts7 from "../utils/typical_parts7.JPG";
+import typical_parts8 from "../utils/typical_parts8.JPG";
+import typical_parts9 from "../utils/typical_parts9.JPG";
+import typical_parts10 from "../utils/typical_parts10.JPG";
+
+
 
 export class LightBox extends Component {
   render() {
     return (
       <div>
-        <h2 className="font-weight-bold my-5 text-center">My Projects</h2>
+        <h2 className="font-weight-bold my-5 text-center">Typical Parts</h2>
 
         {/* <!--First row--> */}
         <div className="row">
@@ -16,11 +28,11 @@ export class LightBox extends Component {
             <div className="mdb-lightbox" style={style}>
               <figure className="col-md-4">
                 <a
-                  href="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg"
+                  href={'/Portfolio'}
                   data-size="1600x1067"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg"
+                    src={typical_parts1}
                     className="img-fluid z-depth-1"
                   ></img>
                 </a>
@@ -28,11 +40,11 @@ export class LightBox extends Component {
 
               <figure className="col-md-4">
                 <a
-                  href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(66).jpg"
+                  href={'/Portfolio'}
                   data-size="1600x1067"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(66).jpg"
+                    src={typical_parts2}
                     className="img-fluid z-depth-1"
                   ></img>
                 </a>
@@ -40,11 +52,11 @@ export class LightBox extends Component {
 
               <figure className="col-md-4">
                 <a
-                  href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(65).jpg"
+                  href={'/Portfolio'}
                   data-size="1600x1067"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(65).jpg"
+                    src={typical_parts3}
                     className="img-fluid z-depth-1"
                   ></img>
                 </a>
@@ -52,11 +64,11 @@ export class LightBox extends Component {
 
               <figure className="col-md-4">
                 <a
-                  href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(67).jpg"
+                  href={'/Portfolio'}
                   data-size="1600x1067"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+                    src={typical_parts8}
                     className="img-fluid z-depth-1"
                   ></img>
                 </a>
@@ -64,11 +76,11 @@ export class LightBox extends Component {
 
               <figure className="col-md-4">
                 <a
-                  href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(68).jpg"
+                  href={'/Portfolio'}
                   data-size="1600x1067"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(68).jpg"
+                    src={typical_parts7}
                     className="img-fluid z-depth-1"
                   ></img>
                 </a>
@@ -76,11 +88,11 @@ export class LightBox extends Component {
 
               <figure className="col-md-4">
                 <a
-                  href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(64).jpg"
+                  href={'/Portfolio'}
                   data-size="1600x1067"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(64).jpg"
+                    src={typical_parts6}
                     className="img-fluid z-depth-1"
                   ></img>
                 </a>
@@ -88,11 +100,11 @@ export class LightBox extends Component {
 
               <figure className="col-md-4">
                 <a
-                  href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(69).jpg"
+                  href={'/Portfolio'}
                   data-size="1600x1067"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(69).jpg"
+                    src={typical_parts5}
                     className="img-fluid z-depth-1"
                   ></img>
                 </a>
@@ -100,11 +112,11 @@ export class LightBox extends Component {
 
               <figure className="col-md-4">
                 <a
-                  href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(59).jpg"
+                  href={'/Portfolio'}
                   data-size="1600x1067"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(59).jpg"
+                    src={typical_parts10}
                     className="img-fluid z-depth-1"
                   ></img>
                 </a>
@@ -112,11 +124,11 @@ export class LightBox extends Component {
 
               <figure className="col-md-4">
                 <a
-                  href="https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(70).jpg"
+                  href={'/Portfolio'}
                   data-size="1600x1067"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(70).jpg"
+                    src={typical_parts9}
                     className="img-fluid z-depth-1"
                   ></img>
                 </a>
