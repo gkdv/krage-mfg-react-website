@@ -9,6 +9,24 @@ import typical_parts7 from "../utils/typical_parts7.JPG";
 import typical_parts8 from "../utils/typical_parts8.JPG";
 import typical_parts9 from "../utils/typical_parts9.JPG";
 import typical_parts10 from "../utils/typical_parts10.JPG";
+import typical_parts11 from "../utils/typical_parts11.JPG";
+import typical_parts12 from "../utils/typical_parts12.JPG";
+import typical_parts13 from "../utils/typical_parts13.JPG";
+import typical_parts14 from "../utils/typical_parts14.JPG";
+import typical_parts15 from "../utils/typical_parts15.JPG";
+import typical_parts16 from "../utils/typical_parts16.JPG";
+import typical_parts17 from "../utils/typical_parts17.JPG";
+import typical_parts18 from "../utils/typical_parts18.JPG";
+import typical_parts19 from "../utils/typical_parts19.JPG";
+import typical_parts20 from "../utils/typical_parts20.JPG";
+import typical_parts21 from "../utils/typical_parts21.JPG";
+import typical_parts22 from "../utils/typical_parts22.JPG";
+import typical_parts23 from "../utils/typical_parts23.JPG";
+import typical_parts24 from "../utils/typical_parts24.JPG";
+import typical_parts25 from "../utils/typical_parts25.JPG";
+import typical_parts26 from "../utils/typical_parts26.JPG";
+import typical_parts27 from "../utils/typical_parts27.JPG";
+import typical_parts28 from "../utils/typical_parts28.JPG";
 import {
   MDBCarousel,
   MDBCarouselInner,
@@ -145,7 +163,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts1}
+                              src={typical_parts28}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -154,7 +172,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts2}
+                              src={typical_parts27}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -163,7 +181,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts3}
+                              src={typical_parts11}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -172,7 +190,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts8}
+                              src={typical_parts12}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -181,7 +199,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts7}
+                              src={typical_parts13}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -190,7 +208,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts6}
+                              src={typical_parts14}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -199,7 +217,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts5}
+                              src={typical_parts15}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -208,7 +226,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts10}
+                              src={typical_parts16}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -217,7 +235,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts9}
+                              src={typical_parts17}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -243,7 +261,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts1}
+                              src={typical_parts18}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -252,7 +270,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts2}
+                              src={typical_parts19}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -261,7 +279,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts3}
+                              src={typical_parts20}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -270,7 +288,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts8}
+                              src={typical_parts21}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -279,7 +297,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts7}
+                              src={typical_parts22}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -288,7 +306,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts6}
+                              src={typical_parts23}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -297,7 +315,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts5}
+                              src={typical_parts24}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -306,7 +324,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts10}
+                              src={typical_parts25}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>
@@ -315,7 +333,7 @@ export class LightBox extends Component {
                         <figure className="col-md-4">
                           <a href={"/Portfolio"} data-size="1600x1067">
                             <img
-                              src={typical_parts9}
+                              src={typical_parts26}
                               className="img-fluid z-depth-1"
                             ></img>
                           </a>

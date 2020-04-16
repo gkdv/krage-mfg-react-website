@@ -18,7 +18,6 @@ export class Gallery extends Component {
   render() {
     return (
       <div>
-        <div className='bottom-left-text'>Hello People</div>
         <MDBContainer id="gallery-container">
           <MDBCarousel
             activeItem={1}
