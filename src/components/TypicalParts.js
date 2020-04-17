@@ -27,6 +27,7 @@ import typical_parts25 from "../utils/typical_parts25.JPG";
 import typical_parts26 from "../utils/typical_parts26.JPG";
 import typical_parts27 from "../utils/typical_parts27.JPG";
 import typical_parts28 from "../utils/typical_parts28.JPG";
+import Background from "../utils/dark-paths.png"
 import {
   MDBCarousel,
   MDBCarouselInner,
@@ -39,9 +40,11 @@ export class LightBox extends Component {
   render() {
     return (
       <>
-        <h2 className="font-weight-bold my-5 text-center" style={headerStyle}>
-          Typical Parts
-        </h2>
+        <div style={headerBackgroundStyle}>
+          <h2 className="font-weight-bold my-5 text-center" style={headerStyle}>
+            TYPICAL PARTS
+          </h2>
+        </div>
         <MDBContainer>
           <MDBCarousel
             activeItem={1}
@@ -362,5 +365,11 @@ const style = {
 const headerStyle = {
   display: "flex",
   justifyContent: "center",
-  backgroundImage: "linear-gradient(to bottom left,silver , white)",
+  // backgroundImage: "linear-gradient(to bottom left,silver , white)",
 };
+const headerBackgroundStyle = {
+  padding: '5%',
+  // backgroundImage: "linear-gradient(silver , white)",
+  // background: 'linear-gradient(to right,rgba(192, 192, 192, 1), rgba(1, 23, 63, 0))',
+  backgroundImage: ('linear-gradient(to right,rgba(192, 192, 192, 1), rgba(1, 23, 63, 0))', `url(${Background})`)
+}
