@@ -11,18 +11,53 @@ import {
   MDBCarouselItem,
   MDBView,
 } from "mdbreact";
-import typical_parts1 from "../utils/typical_parts1.JPG";
-import typical_parts2 from "../utils/typical_parts2.JPG";
-import typical_parts3 from "../utils/typical_parts3.JPG";
-import typical_parts23 from "../utils/typical_parts23.JPG";
+import img1 from "../utils/typical_parts1.JPG";
+import img2 from "../utils/typical_parts2.JPG";
+import img3 from "../utils/typical_parts3.JPG";
+import img4 from "../utils/typical_parts23.JPG";
+import img5 from "../utils/typical_parts5.JPG";
+import img6 from "../utils/typical_parts6.JPG";
+import img7 from "../utils/typical_parts7.JPG";
+import img8 from "../utils/typical_parts8.JPG";
+import img9 from "../utils/typical_parts9.JPG";
+import img10 from "../utils/typical_parts9.JPG";
+import img11 from "../utils/typical_parts9.JPG";
+import img12 from "../utils/typical_parts9.JPG";
+import img13 from "../utils/typical_parts9.JPG";
+import img14 from "../utils/typical_parts9.JPG";
+import img15 from "../utils/typical_parts9.JPG";
+import img16 from "../utils/typical_parts9.JPG";
+import img17 from "../utils/typical_parts9.JPG";
+import img18 from "../utils/typical_parts9.JPG";
+import img19 from "../utils/typical_parts9.JPG";
+import img20 from "../utils/typical_parts9.JPG";
+import img21 from "../utils/typical_parts9.JPG";
+import img22 from "../utils/typical_parts9.JPG";
+import img23 from "../utils/typical_parts9.JPG";
+import img24 from "../utils/typical_parts9.JPG";
+import img25 from "../utils/typical_parts9.JPG";
+import img26 from "../utils/typical_parts9.JPG";
+import img27 from "../utils/typical_parts9.JPG";
+import img28 from "../utils/typical_parts9.JPG";
+import img29 from "../utils/typical_parts9.JPG";
+import img30 from "../utils/typical_parts9.JPG";
+import img31 from "../utils/typical_parts9.JPG";
+import img32 from "../utils/typical_parts9.JPG";
+import img33 from "../utils/typical_parts9.JPG";
+import img34 from "../utils/typical_parts9.JPG";
+import img35 from "../utils/typical_parts9.JPG";
+import img36 from "../utils/typical_parts9.JPG";
+import img37 from "../utils/typical_parts9.JPG";
 
 
 class CollapsePage extends Component {
-  state = {
+  constructor(){
+    super()
+    this.state = {
     collapseID: "collapse3",
-    imageArray: ''
+    imageArray: []
   };
-
+  }
   toggleCollapse = (collapseID) => () =>
     this.setState((prevState) => ({
       collapseID: prevState.collapseID !== collapseID ? collapseID : "",
@@ -30,40 +65,70 @@ class CollapsePage extends Component {
     }));
 
   imageRender = (collapseID) => {
-    // console.log({ collapseID })
+    console.log( 'hello' + collapseID )
     switch (collapseID) {
-      case collapseID === "collapse1":
-      let list = [1,2,3]
-      this.setState(this.state.imageArray(list))
+      case "collapse1":
+      var list = [img1, img2, img3, img4]
+      this.setState({
+        imageArray: list
+      })
         break;
-      case collapseID === "collapse2":
-        this.setState(this.imageArray.push("image4", "image5", "image6"));
+      case "collapse2":
+        var list = [img5, img6, img7, img8]
+        this.setState({
+          imageArray: list
+        })
         break;
-      case collapseID === "collapse3":
-        this.setState(this.imageArray.push("image7", "image8", "image9"));
+      case "collapse3":
+        var list = [img9, img10, img11, img12]
+        this.setState({
+          imageArray: list
+        })
         break;
-      case collapseID === "collapse4":
-        this.setState(this.imageArray.push("image10", "image11", "image12"));
+      case "collapse4":
+        var list = [img13, img14, img15, img16]
+        this.setState({
+          imageArray: list
+        })
         break;
-      case collapseID === "collapse5":
-        this.setState(this.imageArray.push("image13", "image14", "image15"));
+      case "collapse5":
+        var list = [img17, img18, img19, img20]
+        this.setState({
+          imageArray: list
+        })
         break;
-      case collapseID === "collapse6":
-        this.setState(this.imageArray.push("image16", "image17", "image18"));
+      case "collapse6":
+        var list = [img21, img22, img23, img24]
+        this.setState({
+          imageArray: list
+        })
         break;
-      case collapseID === "collapse7":
-        this.setState(this.imageArray.push("image19", "image20", "image21"));
+      case "collapse7":
+        var list = [img25, img26, img27, img28]
+        this.setState({
+          imageArray: list
+        })
         break;
-      case collapseID === "collapse8":
-        this.setState(this.imageArray.push("image22", "image23", "image24"));
+      case "collapse8":
+        var list = [img29, img30, img31, img32]
+        this.setState({
+          imageArray: list
+        })
         break;
-      case collapseID === "collapse9":
-        this.setState(this.imageArray.push("image25", "image26", "image27"));
+      case "collapse9":
+        var list = [img33, img34, img35, img36]
+        this.setState({
+          imageArray: list
+        })
+        break;
+      default:
+        console.log('default')
     }
   };
 
   render() {
     const { collapseID } = this.state;
+    
   
     return (
       <MDBContainer style={containerStyle}>
@@ -421,7 +486,7 @@ class CollapsePage extends Component {
                             <figure className="col-md-6">
                               <a href={"/Portfolio"} data-size="1600x1067">
                                 <img
-                                  src={typical_parts1}
+                                  src={this.state.imageArray[0]}
                                   className="img-fluid z-depth-1"
                                 ></img>
                               </a>
@@ -430,7 +495,7 @@ class CollapsePage extends Component {
                             <figure className="col-md-6">
                               <a href={"/Portfolio"} data-size="1600x1067">
                                 <img
-                                  src={typical_parts2}
+                                  src={this.state.imageArray[1]}
                                   className="img-fluid z-depth-1"
                                 ></img>
                               </a>
@@ -439,7 +504,7 @@ class CollapsePage extends Component {
                             <figure className="col-md-6">
                               <a href={"/Portfolio"} data-size="1600x1067">
                                 <img
-                                  src={typical_parts3}
+                                  src={this.state.imageArray[2]}
                                   className="img-fluid z-depth-1"
                                 ></img>
                               </a>
@@ -448,7 +513,7 @@ class CollapsePage extends Component {
                             <figure className="col-md-6">
                               <a href={"/Portfolio"} data-size="1600x1067">
                                 <img
-                                  src={typical_parts23}
+                                  src={this.state.imageArray[3]}
                                   className="img-fluid z-depth-1"
                                 ></img>
                               </a>
