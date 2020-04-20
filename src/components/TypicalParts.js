@@ -371,5 +371,5 @@ const headerBackgroundStyle = {
   padding: '5%',
   // backgroundImage: "linear-gradient(silver , white)",
   // background: 'linear-gradient(to right,rgba(192, 192, 192, 1), rgba(1, 23, 63, 0))',
-  backgroundImage: ('linear-gradient(to right,rgba(192, 192, 192, 1), rgba(1, 23, 63, 0))', `url(${Background})`)
+  backgroundImage: ('linear-gradient(rgba(192, 192, 192, 1), rgba(1, 23, 63, 0))')
 }

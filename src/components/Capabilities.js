@@ -159,7 +159,7 @@ class CollapsePage extends Component {
                   />
                 </div>
                 <MDBCollapse id="collapse1" isOpen={collapseID}>
-                  <MDBCardBody>
+                  <MDBCardBody style={cardBodyStyle}>
                     <p>
                       For years Krage Manufacturing has been offering customers
                       various manufacturing and engineering solutions. We have
@@ -212,7 +212,7 @@ class CollapsePage extends Component {
                   />
                 </div>
                 <MDBCollapse id="collapse2" isOpen={collapseID}>
-                  <MDBCardBody>
+                  <MDBCardBody style={cardBodyStyle}>
                     <p>
                       Trumpf CO2 lasers with automatic load and unload operate
                       unattended 24 hours/day. The laser is capable of cutting
@@ -241,7 +241,7 @@ class CollapsePage extends Component {
                   />
                 </div>
                 <MDBCollapse id="collapse3" isOpen={collapseID}>
-                  <MDBCardBody>
+                  <MDBCardBody style={cardBodyStyle}>
                     Krage Manufacturing utilizes Bystronic Xpert and PR press
                     brakes. Each brake is equipped with 4 – 6 axis backgauging,
                     hydraulic clamping, automatic crowning and material
@@ -270,7 +270,7 @@ class CollapsePage extends Component {
                   />
                 </div>
                 <MDBCollapse id="collapse4" isOpen={collapseID}>
-                  <MDBCardBody>
+                  <MDBCardBody style={cardBodyStyle}>
                     Several weld stations are operated by experienced welders
                     utilizing Lincoln Power MIG welders and Invertec TIG
                     welders. Krage Mfg. excels at welding galvanized steel along
@@ -297,7 +297,7 @@ class CollapsePage extends Component {
                   />
                 </div>
                 <MDBCollapse id="collapse5" isOpen={collapseID}>
-                  <MDBCardBody>
+                  <MDBCardBody style={cardBodyStyle}>
                     Krage Mfg. has a complete powder coating and painting
                     operation. Skilled coaters operate Nordson powder guns in
                     multiple booths. A three stage phosphate pretreatment system
@@ -333,7 +333,7 @@ class CollapsePage extends Component {
                   />
                 </div>
                 <MDBCollapse id="collapse6" isOpen={collapseID}>
-                  <MDBCardBody>
+                  <MDBCardBody style={cardBodyStyle}>
                     After Krage Mfg. has fabricated your parts we have the in
                     house capability of assembling your products. We will manage
                     your unique assembly requirements and integrate specified
@@ -360,7 +360,7 @@ class CollapsePage extends Component {
                   />
                 </div>
                 <MDBCollapse id="collapse7" isOpen={collapseID}>
-                  <MDBCardBody>
+                  <MDBCardBody style={cardBodyStyle}>
                     Control and Relay Panel Fabrication Western Control Systems
                     is uniquely suited to fully integrate your substation
                     electrical needs. We can provide all your power protection
@@ -397,7 +397,7 @@ class CollapsePage extends Component {
                   />
                 </div>
                 <MDBCollapse id="collapse8" isOpen={collapseID}>
-                  <MDBCardBody>
+                  <MDBCardBody style={cardBodyStyle}>
                     Custom Fabrication and Engineering Design Western Control
                     Systems offers engineering firms, OEM’s, system integrators,
                     end users and contractors custom control panel fabrication
@@ -437,7 +437,7 @@ class CollapsePage extends Component {
                   />
                 </div>
                 <MDBCollapse id="collapse9" isOpen={collapseID}>
-                  <MDBCardBody>
+                  <MDBCardBody style={cardBodyStyle}>
                     Custom Enclosures Western Control Systems and Krage
                     Manufacturing pride ourselves on designing specialty and
                     customized enclosures that serve the varying needs of our
@@ -546,6 +546,7 @@ const style = {
 };
 const cardStyle = {
   margin: "0px",
+  borderStyle: 'hidden'
 };
 const containerStyle = {
   // margin: "0px",
@@ -570,32 +571,4 @@ const mdbRowStyle = {
   margin: "auto",
   backgroundImage: "linear-gradient(white, silver)"
 };
-
-// switch (this.setState(this.imageArray)) {
-//   case this.collapseID === "collapse1":
-//     this.setState(this.imageArray.push("image1", "image2", "image3"));
-//     break;
-//   case this.collapseID === "collapse2":
-//     this.setState(this.imageArray.push("image4", "image5", "image6"));
-//     break;
-//   case this.collapseID === "collapse3":
-//     this.setState(this.imageArray.push("image7", "image8", "image9"));
-//     break;
-//   case this.collapseID === "collapse4":
-//     this.setState(this.imageArray.push("image10", "image11", "image12"));
-//     break;
-//   case this.collapseID === "collapse5":
-//     this.setState(this.imageArray.push("image13", "image14", "image15"));
-//     break;
-//   case this.collapseID === "collapse6":
-//     this.setState(this.imageArray.push("image16", "image17", "image18"));
-//     break;
-//   case this.collapseID === "collapse7":
-//     this.setState(this.imageArray.push("image19", "image20", "image21"));
-//     break;
-//   case this.collapseID === "collapse8":
-//     this.setState(this.imageArray.push("image22", "image23", "image24"));
-//     break;
-//   case this.collapseID === "collapse9":
-//     this.setState(this.imageArray.push("image25", "image26", "image27"));
-// }
+const cardBodyStyle = {}

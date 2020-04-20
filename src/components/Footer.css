@@ -1,6 +1,6 @@
 #top-row {
     /* background: url(../utils/dark-paths.png); */
-    background: linear-gradient(to right,rgba(192, 192, 192, 1), rgba(1, 23, 63, 0)),
+    background: linear-gradient(to right,rgba(192, 192, 192, 1), #01184100),
     url(../utils/dark-paths.png);
     width: auto;
     /* border-bottom-color:#92a8d1; */

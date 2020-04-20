@@ -18,7 +18,7 @@ import './App.css'
 function App() {
   return (
     <Router>
-      <div >
+      <>
         <Route exact path='/' render={ () =>
           <React.Fragment>
             <Main />
@@ -29,7 +29,7 @@ function App() {
         <Route path='/Services' component={Services} />
         <Route path='/Portfolio' component={Portfolio} />
 
-      </div>
+      </>
     </Router>
   );
 }
