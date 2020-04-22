@@ -4,10 +4,11 @@ export class About extends Component {
   render() {
     return (
       <div>
+          <div className='col-sm-3' style={bar}>.</div>
         <div>
           <h1 style={headerStyle}>About Us</h1>
         </div>
-        <div style={contentStyle}>
+        <div className='col-md-8' style={contentStyle}>
           <p>
             For years Krage Manufacturing has been offering customers various
             manufacturing and engineering solutions. We have exceptional
@@ -47,7 +48,7 @@ export class About extends Component {
 export default About;
 
 const headerStyle = {
-    margin: '5% 5% 2% 5%',
+    margin: '2% 5% 2% 5%',
     fontWeight: 'bold',
     fontSize: '4rem',
     // color: #01184100
@@ -55,5 +56,11 @@ const headerStyle = {
 const contentStyle = {
     margin: '2% 5% 5% 5%',
     // fontWeight: 'bold',
-    fontSize: '1.5rem'
+    fontSize: '1rem'
+}
+const bar = {
+    margin: '10% 3% 0% 5%',
+    fontWeight: 'bold',
+    fontSize: '0.1rem',
+    backgroundColor: 'black'
 }

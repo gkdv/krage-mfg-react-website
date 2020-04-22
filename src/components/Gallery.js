@@ -3,6 +3,7 @@ import "../components/Gallery.css";
 import laser_1262x841_text1 from "../utils/laser_1262x841_text1.jpg";
 import laser_2_1262x841_text1 from "../utils/laser_2_1262x841_text1.jpg";
 import press_brake_1259x841_text1 from "../utils/press_brake_1259x841_text1.jpg";
+import robotWelding from "../utils/robotWelding_text1.jpg";
 // import brake_press_1 from "../utils/brake_press_1.jpg";
 // import powder_coat_1 from "../utils/powder_coat_1.jpg";
 // import { Carousel } from "react-bootstrap";
@@ -49,7 +50,7 @@ export class Gallery extends Component {
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src={laser_2_1262x841_text1}
+                    src={robotWelding}
                     alt="Third slide"
                   />
                 </MDBView>

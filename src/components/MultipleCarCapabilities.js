@@ -1,4 +1,15 @@
 import React from "react";
+import brakePress from "../utils/bystronic_press1_290x218.JPG";
+import welding from "../utils/welding300x192.jpg";
+import powder from "../utils/powderCoat300x200.jpg";
+import turretPress from "../utils/turretPress300x225.JPG";
+import customEnclosures from "../utils/customEnclosures300x225.JPG";
+import relayPanel from "../utils/relayPanel300x225.jpg";
+import customFabrication from "../utils/customFabrication300x225.JPG";
+import wireAssembly from "../utils/wireAssembly300x225.JPG";
+import designPlans from "../utils/designPlans300x225.jpg";
+import haasMill from "../utils/haasMill300x199.jpg";
+import pressBrakes from "../utils/pressBrakes300x225.JPG";
 import {
   MDBCarousel,
   MDBCarouselInner,
@@ -17,7 +28,7 @@ const MultiCarouselPage = () => {
     <div style={outsideDiv}>
       <h1 style={headerStyle}>Capabilities.</h1>
       <h2 style={headerTwoStyle}>
-        We have a specialized set of capabilities we leverage in order to drive
+        We have a specialized set of capabilities we leverage to drive
         innovation and ingenuity for our customers.
       </h2>
       <MDBContainer>
@@ -27,150 +38,128 @@ const MultiCarouselPage = () => {
           slide={true}
           showControls={true}
           showIndicators={true}
-          multiItem
+          className="z-depth-1"
+          indicatorColor="blue"
         >
           <MDBCarouselInner style={innerStyle}>
+            {/* //////////////////////////////////////////////// item 1 //////////////////////////////////////////////// */}
             <MDBCarouselItem itemId="1" style={rowStyle}>
               <MDBRow style={rowStyle}>
-                <MDBCard className="mb-2" style={cardStyle}>
+                <MDBCard className="col-sm-4" style={cardStyle}>
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                    src={haasMill}
                   />
                   <MDBCardBody>
-                    <MDBCardTitle>PROTOTYPING & CONTRACT MANUFACTURING</MDBCardTitle>
+                    <MDBCardTitle>
+                      PROTOTYPING & CONTRACT MANUFACTURING
+                    </MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
-                <MDBCard className="mb-2" style={cardStyle}>
+                <MDBCard className="col-sm-4" style={cardStyle}>
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                    src={turretPress}
                   />
                   <MDBCardBody>
-                    <MDBCardTitle>LASER CUTTING & TURRET PUNCHING</MDBCardTitle>
+                    <MDBCardTitle>TURRET PUNCHING & LASER CUTTING</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
-                <MDBCard className="mb-2" style={cardStyle}>
+                <MDBCard className="col-sm-4" style={cardStyle}>
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                    src={pressBrakes}
                   />
                   <MDBCardBody>
                     <MDBCardTitle>CNC BENDING</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
-
-                <MDBCard className="mb-2" style={cardStyle}>
-                  <MDBCardImage
-                    style={imageStyle}
-                    className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-                  />
-                  <MDBCardBody>
-                    <MDBCardTitle>WELDING</MDBCardTitle>
-                  </MDBCardBody>
-                </MDBCard>
               </MDBRow>
             </MDBCarouselItem>
-
-            <MDBCarouselItem itemId="3" style={rowStyle}>
+            {/* //////////////////////////////////////////////// item 2 //////////////////////////////////////////////// */}
+            <MDBCarouselItem itemId="2" style={rowStyle}>
               <MDBRow style={rowStyle}>
-                <MDBCard className="mb-2" style={cardStyle}>
+                <MDBCard className="col-sm-4" style={cardStyle}>
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                    src={powder}
                   />
                   <MDBCardBody>
-                    <MDBCardTitle>POWDER COATING, PAINTING & MEDIA BLASTING</MDBCardTitle>
+                    <MDBCardTitle>
+                      POWDER COATING, PAINTING & MEDIA BLASTING
+                    </MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
-                <MDBCard className="mb-2" style={cardStyle}>
+                <MDBCard className="col-sm-4" style={cardStyle}>
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-                  />
-                  <MDBCardBody>
-                    <MDBCardTitle>MDBCard title</MDBCardTitle>
-                  </MDBCardBody>
-                </MDBCard>
-
-                <MDBCard className="mb-2" style={cardStyle}>
-                  <MDBCardImage
-                    style={imageStyle}
-                    className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                    src={wireAssembly}
                   />
                   <MDBCardBody>
                     <MDBCardTitle>ASSEMBLY</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
-                <MDBCard className="mb-2" style={cardStyle}>
+                <MDBCard className="col-sm-4" style={cardStyle}>
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                    src={relayPanel}
                   />
                   <MDBCardBody>
-                    <MDBCardTitle>CONTROL & RELAY PANEL FABRICATION</MDBCardTitle>
+                    <MDBCardTitle>
+                      CONTROL & RELAY PANEL FABRICATION
+                    </MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
               </MDBRow>
             </MDBCarouselItem>
-
-            <MDBCarouselItem itemId="2" style={rowStyle}>
+            {/* //////////////////////////////////////////////// item 3 //////////////////////////////////////////////// */}
+            <MDBCarouselItem itemId="3" style={rowStyle}>
               <MDBRow style={rowStyle}>
-                <MDBCard className="mb-2" style={cardStyle}>
+                <MDBCard className="col-sm-4" style={cardStyle}>
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                    src={customFabrication}
                   />
                   <MDBCardBody>
-                    <MDBCardTitle>CUSTOM FABRICATION & ENGINEERING DESIGN</MDBCardTitle>
+                    <MDBCardTitle>
+                      CUSTOM FABRICATION & ENGINEERING DESIGN
+                    </MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
-                <MDBCard className="mb-2" style={cardStyle}>
+                <MDBCard className="col-sm-4" style={cardStyle}>
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                    src={customEnclosures}
                   />
                   <MDBCardBody>
                     <MDBCardTitle>CUSTOM ENCLOSURES</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
-                <MDBCard className="mb-2" style={cardStyle}>
+                <MDBCard className="col-sm-4" style={cardStyle}>
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                    src={welding}
                   />
                   <MDBCardBody>
-                    <MDBCardTitle></MDBCardTitle>
+                    <MDBCardTitle>ROBOTIC WELDING</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
-                <MDBCard className="mb-2" style={cardStyle}>
-                  <MDBCardImage
-                    style={imageStyle}
-                    className="img-fluid"
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-                  />
-                  <MDBCardBody>
-                    <MDBCardTitle></MDBCardTitle>
-                  </MDBCardBody>
-                </MDBCard>
               </MDBRow>
             </MDBCarouselItem>
           </MDBCarouselInner>
@@ -200,7 +189,8 @@ const cardStyle = {
   border: "none",
   borderRadius: "0rem",
   borderStyle: "none",
-  margin: "15px",
+  margin: "10px",
+  padding: "0%",
 };
 const innerStyle = {
   backgroundColor: "white",
@@ -212,6 +202,6 @@ const headerStyle = {
   // color: #01184100
 };
 const headerTwoStyle = {
-    margin: "2% 5% 5% 5%",
-    color: 'silver'
-}
+  margin: "2% 5% 5% 5%",
+  color: "silver",
+};
