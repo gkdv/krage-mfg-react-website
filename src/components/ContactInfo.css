@@ -26,8 +26,8 @@
     text-align: center;
 }
 .btn {
-    background-color: silver;
-    color: black;
+    background-color: white;
+    color: silver;
     border-color: silver;
     /* border-radius: 0%; */
     display: flex;

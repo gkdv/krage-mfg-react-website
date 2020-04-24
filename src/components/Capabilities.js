@@ -15,23 +15,23 @@ import img1 from "../utils/typical_parts1.JPG";
 import img2 from "../utils/typical_parts2.JPG";
 import img3 from "../utils/typical_parts3.JPG";
 import img4 from "../utils/typical_parts23.JPG";
-import img5 from "../utils/typical_parts5.JPG";
-import img6 from "../utils/typical_parts6.JPG";
-import img7 from "../utils/typical_parts7.JPG";
-import img8 from "../utils/typical_parts8.JPG";
-import img9 from "../utils/typical_parts9.JPG";
-import img10 from "../utils/typical_parts9.JPG";
+import img5 from "../utils/trumpf_laser544x408.JPG";
+import img6 from "../utils/MurataTurretPress544x408.JPG";
+import img7 from "../utils/laserBystronic544x408.JPG";
+import img8 from "../utils/typical_parts9.JPG";
+import img9 from "../utils/pressBrakes544x408.JPG";
+import img10 from "../utils/pressBrake1-544x408.JPG";
 import img11 from "../utils/typical_parts9.JPG";
 import img12 from "../utils/typical_parts9.JPG";
-import img13 from "../utils/typical_parts9.JPG";
-import img14 from "../utils/typical_parts9.JPG";
+import img13 from "../utils/robotWelding1-544x408.JPG";
+import img14 from "../utils/welding2-544x408.JPG";
 import img15 from "../utils/typical_parts9.JPG";
 import img16 from "../utils/typical_parts9.JPG";
-import img17 from "../utils/typical_parts9.JPG";
+import img17 from "../utils/powderCoat1-544x408.JPG";
 import img18 from "../utils/typical_parts9.JPG";
 import img19 from "../utils/typical_parts9.JPG";
 import img20 from "../utils/typical_parts9.JPG";
-import img21 from "../utils/typical_parts9.JPG";
+import img21 from "../utils/typical_parts8.JPG";
 import img22 from "../utils/typical_parts9.JPG";
 import img23 from "../utils/typical_parts9.JPG";
 import img24 from "../utils/typical_parts9.JPG";
@@ -39,15 +39,16 @@ import img25 from "../utils/typical_parts9.JPG";
 import img26 from "../utils/typical_parts9.JPG";
 import img27 from "../utils/typical_parts9.JPG";
 import img28 from "../utils/typical_parts9.JPG";
-import img29 from "../utils/typical_parts9.JPG";
-import img30 from "../utils/typical_parts9.JPG";
-import img31 from "../utils/typical_parts9.JPG";
-import img32 from "../utils/typical_parts9.JPG";
-import img33 from "../utils/typical_parts9.JPG";
-import img34 from "../utils/typical_parts9.JPG";
+import img29 from "../utils/customFab6-544x408.JPG";
+import img30 from "../utils/customFab1-544x408.JPG";
+import img31 from "../utils/customFab2-544x408.JPG";
+import img32 from "../utils/customFab3-544x408.JPG";
+import img33 from "../utils/customFab5-544x408.JPG";
+import img34 from "../utils/customFab7-544x408.JPG";
 import img35 from "../utils/typical_parts9.JPG";
 import img36 from "../utils/typical_parts9.JPG";
 import img37 from "../utils/typical_parts9.JPG";
+import CapabilitiesHighlights from "./CapabilitiesHighlights";
 
 
 class CollapsePage extends Component {
@@ -55,7 +56,7 @@ class CollapsePage extends Component {
     super()
     this.state = {
     collapseID: "collapse3",
-    imageArray: []
+    imageArray: [img9, img10, img11, img12]
   };
   }
   toggleCollapse = (collapseID) => () =>
@@ -65,7 +66,6 @@ class CollapsePage extends Component {
     }));
 
   imageRender = (collapseID) => {
-    console.log( 'hello' + collapseID )
     switch (collapseID) {
       case "collapse1":
       var list = [img1, img2, img3, img4]
@@ -134,11 +134,11 @@ class CollapsePage extends Component {
       <MDBContainer style={containerStyle}>
         <MDBRow>
           <MDBCol>
-            <h1 style={introStyle}>OUR CAPABILITIES</h1>
+            {/* <h1 style={introStyle}>OUR CAPABILITIES</h1>
             <h2 style={introStyle}>
               We have a specialized set of expertise we leverage in order to
               drive innovation and ingenuity for our customers.
-            </h2>
+            </h2> */}
           </MDBCol>
         </MDBRow>
         <MDBRow>
@@ -530,6 +530,9 @@ class CollapsePage extends Component {
             </MDBContainer>
           </MDBCol>
         </MDBRow>
+        <MDBRow>
+          < CapabilitiesHighlights props={this.state}/>
+        </MDBRow>
       </MDBContainer>
     );
   }
@@ -558,15 +561,15 @@ const headerStyle = {
   backgroundImage: "linear-gradient(white, silver)",
   fontWeight: "bold",
 };
-const introStyle = {
-  fontWeight: "bold",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  alignContent: "center",
-  textAlign: "center",
+// const introStyle = {
+//   fontWeight: "bold",
+//   display: "flex",
+//   justifyContent: "center",
+//   alignItems: "center",
+//   alignContent: "center",
+//   textAlign: "center",
   
-};
+// };
 const mdbRowStyle = {
   margin: "auto",
   backgroundImage: "linear-gradient(white, silver)"

@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink as Link } from 'react-router-hash-link';
 import brakePress from "../utils/bystronic_press1_290x218.JPG";
 import welding from "../utils/welding300x192.jpg";
 import powder from "../utils/powderCoat300x200.jpg";
@@ -46,16 +47,19 @@ const MultiCarouselPage = () => {
             <MDBCarouselItem itemId="1" style={rowStyle}>
               <MDBRow style={rowStyle}>
                 <MDBCard className="col-sm-4" style={cardStyle}>
+                  <Link to="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={haasMill}
                   />
+                  </Link>
                   <MDBCardBody>
                     <MDBCardTitle>
                       PROTOTYPING & CONTRACT MANUFACTURING
                     </MDBCardTitle>
                   </MDBCardBody>
+
                 </MDBCard>
 
                 <MDBCard className="col-sm-4" style={cardStyle}>
