@@ -313,12 +313,13 @@ class CollapsePage extends Component {
                 </MDBCollapse>
               </MDBCard>
 
+              
               <MDBCard style={cardStyle}>
                 <div
                   style={headerStyle}
                   onClick={this.toggleCollapse("collapse6")}
                 >
-                  WELDING
+                  FORM ROLLING
                   <i
                     className={
                       collapseID === "collapse6"
@@ -327,7 +328,47 @@ class CollapsePage extends Component {
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse6" isOpen={collapseID}>
+                <MDBCollapse id="collapse" isOpen={collapseID}>
+                  <MDBCardBody style={cardBodyStyle}>
+                    Custom Enclosures Western Control Systems and Krage
+                    Manufacturing pride ourselves on designing specialty and
+                    customized enclosures that serve the varying needs of our
+                    customers. We can take your rough sketch, picture or CAD
+                    drawing and fabricate an enclosure to fill your needs.
+                    Frequently, we match existing enclosures in the field to
+                    insure your control room looks professional. Why purchase a
+                    standard run-of-the-mill enclosure and manually layout your
+                    cut-outs and hole patterns when you can get a completed
+                    enclosure from Western Control Systems and Krage
+                    Manufacturing with all your requirements built in. Krage
+                    Manufacturing fabricates thousands of enclosures each year
+                    for OEM’s, utilities, electrical contractors and other
+                    specialty markets. We are UL listed for Type 1, 3R, Nema 4,
+                    Nema 4X and Nema 12 electrical enclosures. We work closely
+                    with UL on new enclosure requirements and test new designs
+                    in UL laboratories for those special needs. All our
+                    enclosures are pretreated and powder coated to insure
+                    excellent coating adhesion and corrosion protection for a
+                    long service life.
+                  </MDBCardBody>
+                </MDBCollapse>
+              </MDBCard>
+
+              <MDBCard style={cardStyle}>
+                <div
+                  style={headerStyle}
+                  onClick={this.toggleCollapse("collapse7")}
+                >
+                  WELDING
+                  <i
+                    className={
+                      collapseID === "collapse7"
+                        ? "fa fa-angle-down rotate-icon"
+                        : "fa fa-angle-down"
+                    }
+                  />
+                </div>
+                <MDBCollapse id="collapse7" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     Several weld stations are operated by experienced welders
                     utilizing Lincoln Power MIG welders and Invertec TIG
@@ -343,18 +384,18 @@ class CollapsePage extends Component {
               <MDBCard style={cardStyle}>
                 <div
                   style={headerStyle}
-                  onClick={this.toggleCollapse("collapse7")}
+                  onClick={this.toggleCollapse("collapse8")}
                 >
                   POWDER COATING, PAINTING & MEDIA BLASTING
                   <i
                     className={
-                      collapseID === "collapse7"
+                      collapseID === "collapse8"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse7" isOpen={collapseID}>
+                <MDBCollapse id="collapse8" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     Krage Mfg. has a complete powder coating and painting
                     operation. Skilled coaters operate Nordson powder guns in
@@ -379,18 +420,18 @@ class CollapsePage extends Component {
               <MDBCard style={cardStyle}>
                 <div
                   style={headerStyle}
-                  onClick={this.toggleCollapse("collapse8")}
+                  onClick={this.toggleCollapse("collapse9")}
                 >
                   ASSEMBLY
                   <i
                     className={
-                      collapseID === "collapse8"
+                      collapseID === "collapse9"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse8" isOpen={collapseID}>
+                <MDBCollapse id="collapse9" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     After Krage Mfg. has fabricated your parts we have the in
                     house capability of assembling your products. We will manage
@@ -411,13 +452,13 @@ class CollapsePage extends Component {
                   CONTROL & RELAY PANEL FABRICATION
                   <i
                     className={
-                      collapseID === "collapse9"
+                      collapseID === "collapse10"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse9" isOpen={collapseID}>
+                <MDBCollapse id="collapse10" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     Control and Relay Panel Fabrication Western Control Systems
                     is uniquely suited to fully integrate your substation
@@ -443,18 +484,18 @@ class CollapsePage extends Component {
               <MDBCard style={cardStyle}>
                 <div
                   style={headerStyle}
-                  onClick={this.toggleCollapse("collapse10")}
+                  onClick={this.toggleCollapse("collapse11")}
                 >
                   CUSTOM FABRICATION & ENGINEERING DESIGN
                   <i
                     className={
-                      collapseID === "collapse10"
+                      collapseID === "collapse11"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse10" isOpen={collapseID}>
+                <MDBCollapse id="collapse11" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     Custom Fabrication and Engineering Design Western Control
                     Systems offers engineering firms, OEM’s, system integrators,
@@ -483,18 +524,18 @@ class CollapsePage extends Component {
               <MDBCard style={cardStyle}>
                 <div
                   style={headerStyle}
-                  onClick={this.toggleCollapse("collapse11")}
+                  onClick={this.toggleCollapse("collapse12")}
                 >
                   CUSTOM ENCLOSURES
                   <i
                     className={
-                      collapseID === "collapse11"
+                      collapseID === "collapse12"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse11" isOpen={collapseID}>
+                <MDBCollapse id="collapse12" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     Custom Enclosures Western Control Systems and Krage
                     Manufacturing pride ourselves on designing specialty and
