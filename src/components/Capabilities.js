@@ -202,7 +202,7 @@ class CollapsePage extends Component {
                   style={headerStyle}
                   onClick={this.toggleCollapse("collapse2")}
                 >
-                  LASER CUTTING & TURRET PUNCHING
+                  LASER CUTTING
                   <i
                     className={
                       collapseID === "collapse2"
@@ -231,7 +231,7 @@ class CollapsePage extends Component {
                   style={headerStyle}
                   onClick={this.toggleCollapse("collapse3")}
                 >
-                  CNC BENDING
+                  TURRET PUNCHING
                   <i
                     className={
                       collapseID === "collapse3"
@@ -241,6 +241,35 @@ class CollapsePage extends Component {
                   />
                 </div>
                 <MDBCollapse id="collapse3" isOpen={collapseID}>
+                  <MDBCardBody style={cardBodyStyle}>
+                    <p>
+                      Trumpf CO2 lasers with automatic load and unload operate
+                      unattended 24 hours/day. The laser is capable of cutting
+                      0.50″ steel. Murata and Strippit turret presses can
+                      accommodate 60″ wide material and punch up to 0.25″ thick
+                      material. The Murata is equipped with an automatic load
+                      and piece part unload for lights out operation. Efficient
+                      part nesting insures maximum sheet usage.
+                    </p>
+                  </MDBCardBody>
+                </MDBCollapse>
+              </MDBCard>
+
+              <MDBCard style={cardStyle}>
+                <div
+                  style={headerStyle}
+                  onClick={this.toggleCollapse("collapse4")}
+                >
+                  CNC BENDING
+                  <i
+                    className={
+                      collapseID === "collapse4"
+                        ? "fa fa-angle-down rotate-icon"
+                        : "fa fa-angle-down"
+                    }
+                  />
+                </div>
+                <MDBCollapse id="collapse4" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     Krage Manufacturing utilizes Bystronic Xpert and PR press
                     brakes. Each brake is equipped with 4 – 6 axis backgauging,
@@ -258,18 +287,47 @@ class CollapsePage extends Component {
               <MDBCard style={cardStyle}>
                 <div
                   style={headerStyle}
-                  onClick={this.toggleCollapse("collapse4")}
+                  onClick={this.toggleCollapse("collapse5")}
                 >
-                  WELDING
+                  CNC MACHINING
                   <i
                     className={
-                      collapseID === "collapse4"
+                      collapseID === "collapse5"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse4" isOpen={collapseID}>
+                <MDBCollapse id="collapse5" isOpen={collapseID}>
+                  <MDBCardBody style={cardBodyStyle}>
+                    Krage Manufacturing utilizes Bystronic Xpert and PR press
+                    brakes. Each brake is equipped with 4 – 6 axis backgauging,
+                    hydraulic clamping, automatic crowning and material
+                    thickness compensation. The largest is an Xpert 250 ton
+                    13.5′ brake. All brakes are programmed in the office to
+                    insure maximum floor productivity and effective first part
+                    quality. We have an experienced group of operators that
+                    along with seasoned programmers can handle the most
+                    difficult bending applications.
+                  </MDBCardBody>
+                </MDBCollapse>
+              </MDBCard>
+
+              <MDBCard style={cardStyle}>
+                <div
+                  style={headerStyle}
+                  onClick={this.toggleCollapse("collapse6")}
+                >
+                  WELDING
+                  <i
+                    className={
+                      collapseID === "collapse6"
+                        ? "fa fa-angle-down rotate-icon"
+                        : "fa fa-angle-down"
+                    }
+                  />
+                </div>
+                <MDBCollapse id="collapse6" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     Several weld stations are operated by experienced welders
                     utilizing Lincoln Power MIG welders and Invertec TIG
@@ -285,18 +343,18 @@ class CollapsePage extends Component {
               <MDBCard style={cardStyle}>
                 <div
                   style={headerStyle}
-                  onClick={this.toggleCollapse("collapse5")}
+                  onClick={this.toggleCollapse("collapse7")}
                 >
                   POWDER COATING, PAINTING & MEDIA BLASTING
                   <i
                     className={
-                      collapseID === "collapse5"
+                      collapseID === "collapse7"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse5" isOpen={collapseID}>
+                <MDBCollapse id="collapse7" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     Krage Mfg. has a complete powder coating and painting
                     operation. Skilled coaters operate Nordson powder guns in
@@ -321,18 +379,18 @@ class CollapsePage extends Component {
               <MDBCard style={cardStyle}>
                 <div
                   style={headerStyle}
-                  onClick={this.toggleCollapse("collapse6")}
+                  onClick={this.toggleCollapse("collapse8")}
                 >
                   ASSEMBLY
                   <i
                     className={
-                      collapseID === "collapse6"
+                      collapseID === "collapse8"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse6" isOpen={collapseID}>
+                <MDBCollapse id="collapse8" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     After Krage Mfg. has fabricated your parts we have the in
                     house capability of assembling your products. We will manage
@@ -348,18 +406,18 @@ class CollapsePage extends Component {
               <MDBCard style={cardStyle}>
                 <div
                   style={headerStyle}
-                  onClick={this.toggleCollapse("collapse7")}
+                  onClick={this.toggleCollapse("collapse9")}
                 >
                   CONTROL & RELAY PANEL FABRICATION
                   <i
                     className={
-                      collapseID === "collapse7"
+                      collapseID === "collapse9"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse7" isOpen={collapseID}>
+                <MDBCollapse id="collapse9" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     Control and Relay Panel Fabrication Western Control Systems
                     is uniquely suited to fully integrate your substation
@@ -385,18 +443,18 @@ class CollapsePage extends Component {
               <MDBCard style={cardStyle}>
                 <div
                   style={headerStyle}
-                  onClick={this.toggleCollapse("collapse8")}
+                  onClick={this.toggleCollapse("collapse10")}
                 >
                   CUSTOM FABRICATION & ENGINEERING DESIGN
                   <i
                     className={
-                      collapseID === "collapse8"
+                      collapseID === "collapse10"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse8" isOpen={collapseID}>
+                <MDBCollapse id="collapse10" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     Custom Fabrication and Engineering Design Western Control
                     Systems offers engineering firms, OEM’s, system integrators,
@@ -425,18 +483,18 @@ class CollapsePage extends Component {
               <MDBCard style={cardStyle}>
                 <div
                   style={headerStyle}
-                  onClick={this.toggleCollapse("collapse9")}
+                  onClick={this.toggleCollapse("collapse11")}
                 >
                   CUSTOM ENCLOSURES
                   <i
                     className={
-                      collapseID === "collapse9"
+                      collapseID === "collapse11"
                         ? "fa fa-angle-down rotate-icon"
                         : "fa fa-angle-down"
                     }
                   />
                 </div>
-                <MDBCollapse id="collapse9" isOpen={collapseID}>
+                <MDBCollapse id="collapse11" isOpen={collapseID}>
                   <MDBCardBody style={cardBodyStyle}>
                     Custom Enclosures Western Control Systems and Krage
                     Manufacturing pride ourselves on designing specialty and
@@ -531,7 +589,7 @@ class CollapsePage extends Component {
           </MDBCol>
         </MDBRow>
         <MDBRow>
-          < CapabilitiesHighlights props={this.state}/>
+          < CapabilitiesHighlights props={this.state.collapseID}/>
         </MDBRow>
       </MDBContainer>
     );
