@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "../Header";
-import Footer from "../Footer";
+// import Footer from "../Footer";
+import Footer from '../FooterType2';
 import Capabilities from "../Capabilities";
 
 export class Services extends Component {

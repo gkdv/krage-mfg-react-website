@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Header from '../Header';
 import Gallery from '../Gallery';
-import Footer from '../Footer';
+// import Footer from '../Footer';
+import Footer from '../FooterType2';
 import About from '../About';
 import Industries from '../Industries';
 import Capabilities from '../Capabilities';
