@@ -50,13 +50,13 @@ const MultiCarouselPage = () => {
             <MDBCarouselItem itemId="1" style={itemStyle}>
               <MDBRow style={rowStyle}>
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                  <Link to="/Services">
+                  <a href="/Services">
                     <MDBCardImage
                       style={imageStyle}
                       className="img-fluid"
                       src={wireAssembly}
                     />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>
                       PROTOTYPING & CONTRACT MANUFACTURING
@@ -65,26 +65,26 @@ const MultiCarouselPage = () => {
                 </MDBCard>
                 {/* TURRET PUNCHING &  */}
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <Link to="/Services">
+                <a href="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={laser}
                   />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>LASER CUTTING</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <Link to="/Services">
+                <a href="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={turretPress}
                   />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>TURRET PUNCHING</MDBCardTitle>
                   </MDBCardBody>
@@ -95,39 +95,39 @@ const MultiCarouselPage = () => {
             <MDBCarouselItem itemId="2" style={itemStyle}>
               <MDBRow style={rowStyle}>
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <Link to="/Services">
+                <a href="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={pressBrakes}
                   />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>CNC BENDING</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <Link to="/Services">
+                <a href="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={haasMill}
                   />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>CNC MACHINING</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <Link to="/Services">
+                <a href="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={welding}
                   />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>WELDING</MDBCardTitle>
                   </MDBCardBody>
@@ -138,39 +138,39 @@ const MultiCarouselPage = () => {
             <MDBCarouselItem itemId="3" style={itemStyle}>
               <MDBRow style={rowStyle}>
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <Link to="/Services">
+                <a href="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={roll}
                   />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>FORM ROLLING</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <Link to="/Services">
+                <a href="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={customEnclosures}
                   />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>ASSEMBLY</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <Link to="/Services">
+                <a href="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={powder}
                   />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>
                       POWDER COATING, PAINTING & MEDIA BLASTING
@@ -183,13 +183,13 @@ const MultiCarouselPage = () => {
             <MDBCarouselItem itemId="4" style={itemStyle}>
               <MDBRow style={rowStyle}>
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <Link to="/Services">
+                <a href="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={designPlans}
                   />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>
                       CUSTOM FABRICATION & ENGINEERING DESIGN
@@ -198,26 +198,26 @@ const MultiCarouselPage = () => {
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <Link to="/Services">
+                <a href="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={customFabrication}
                   />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>CUSTOM ENCLOSURES</MDBCardTitle>
                   </MDBCardBody>
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <Link to="/Services">
+                <a href="/Services">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
                     src={relayPanel}
                   />
-                  </Link>
+                  </a>
                   <MDBCardBody>
                     <MDBCardTitle>
                       CONTROL & RELAY PANEL FABRICATION
