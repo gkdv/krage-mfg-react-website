@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import photo from '../utils/murataColorBlue.JPG'
 
 export class About extends Component {
   render() {
     return (
-      <div>
+      <div style={backgroundStyle}>
           <div className='col-sm-3' style={bar}>.</div>
         <div>
           <h1 style={headerStyle}>About Us</h1>
@@ -63,4 +64,9 @@ const bar = {
     fontWeight: 'bold',
     fontSize: '0.1rem',
     backgroundColor: 'black'
+}
+const backgroundStyle = {
+  // background: `linear-gradient(to right,rgba(192, 192, 192, 1), rgba(1, 23, 63, 0)), url(${photo})`,
+  // backgroundSize: 'cover'
+  background: 'white'
 }

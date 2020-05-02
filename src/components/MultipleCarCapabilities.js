@@ -34,7 +34,7 @@ const MultiCarouselPage = () => {
         We have a specialized set of capabilities we leverage to drive
         innovation and ingenuity for our customers.
       </h2>
-      <MDBContainer>
+      <MDBContainer style={carouselContainer}>
         <MDBCarousel
           activeItem={1}
           length={4}
@@ -267,6 +267,7 @@ const cardStyle = {
 };
 const innerStyle = {
   backgroundColor: "white",
+  padding: '2% 0%'
 };
 const headerStyle = {
   margin: "2% 5% 5% 5%",
@@ -278,5 +279,7 @@ const headerTwoStyle = {
   margin: "2% 5% 5% 5%",
   color: "silver",
 };
-
+const carouselContainer = {
+  padding: '2% 0%'
+}
 // TURRET PUNCHING &

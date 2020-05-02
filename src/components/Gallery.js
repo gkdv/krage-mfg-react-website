@@ -18,7 +18,7 @@ import {
 export class Gallery extends Component {
   render() {
     return (
-      <>
+
         <MDBContainer id="gallery-container">
           <MDBCarousel
             activeItem={1}
@@ -58,7 +58,7 @@ export class Gallery extends Component {
             </MDBCarouselInner>
           </MDBCarousel>
         </MDBContainer>
-      </>
+
     );
   }
 }

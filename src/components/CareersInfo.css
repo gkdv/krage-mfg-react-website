@@ -8,7 +8,9 @@
     align-items: center;
     flex-direction: column;
     padding: 10%;
-    background: linear-gradient(to right,rgba(192, 192, 192, 1), rgba(1, 23, 63, 0)), url(../utils/press_brake_1259x841.jpg);
+    /* background: linear-gradient(to right,rgba(192, 192, 192, 1), rgba(1, 23, 63, 0)), url(../utils/press_brake_1259x841.jpg); */
+    background: linear-gradient(to right,rgba(192, 192, 192, 1), rgba(1, 23, 63, 0)), url(../utils/murataColorBlue.JPG);
+    background-size: cover;
     width: auto;
     color: white;    
 }

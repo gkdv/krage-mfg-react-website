@@ -10,11 +10,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10%;
+    padding: 10% 0%;
     background: url(../utils/dark-paths.png);
     width: auto;
     color: white;
     font-size: 30px;
+    /* max-width: 100% */
 }
 #title-content-style {
     display: flex;
@@ -44,6 +45,7 @@
   }
 .card {
     position: relative;
-    bottom: 20px;
+    bottom: 40px;
     margin: 0 10%;
+    /* background-image: linear-gradient(silver , white); */
 }
