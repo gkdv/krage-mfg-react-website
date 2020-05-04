@@ -10,7 +10,7 @@ export class Services extends Component {
     return (
       <div>
         <Header />
-        <IndustriesExplained />
+        {/* <IndustriesExplained /> */}
         <Capabilities />
         <Footer style={style} />
       </div>

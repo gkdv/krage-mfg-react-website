@@ -8,6 +8,7 @@ import Contact from './components/pages/Contact'
 import Careers from './components/pages/Careers'
 import Services from './components/pages/Services'
 import Portfolio from './components/pages/Portfolio'
+import Industries from './components/pages/Industries'
 
 
 // import Portfolio from './components/pages/Portfolio'
@@ -28,6 +29,7 @@ function App() {
         <Route path='/Careers' component={Careers} />
         <Route path='/Services' component={Services} />
         <Route path='/Portfolio' component={Portfolio} />
+        <Route path='/Industries' component={Industries} />
 
       </>
     </Router>

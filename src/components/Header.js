@@ -32,6 +32,9 @@ export class Header extends Component {
               <a className="nav-item nav-link" href="/Services">
                 Services
               </a>
+              <a className="nav-item nav-link" href="/Industries">
+                Industries
+              </a>
               <a className="nav-item nav-link" href="/Portfolio">
                 Portfolio
               </a>
