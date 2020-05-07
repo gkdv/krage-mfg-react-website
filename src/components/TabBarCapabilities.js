@@ -1,5 +1,15 @@
 import React, { useState, useEffect, useCallback } from "react";
-import industryCooling from "../utils/industryCooling.jpg";
+import prototypeContractManu from "../utils/prototypeContractManu.JPG";
+import laserCuttingCapabilities from "../utils/laserCuttingCapabilities.JPG";
+import turretPunchingCapabilities from "../utils/turretPunchingCapabilities.JPG";
+import cncBendingCapabilities from "../utils/cncBendingCapabilities.JPG";
+import cncMachiningCapabilities from "../utils/cncMachiningCapabilities.JPG";
+import weldingCapabilities from "../utils/weldingCapabilities.JPG";
+import powderCoatingCapabilities from "../utils/powderCoatingCapabilities.JPG";
+import assemblyCapabilities from "../utils/assemblyCapabilities.JPG";
+import controlPanelCapabilities from "../utils/controlPanelCapabilities.JPG";
+import customFabCapabilities from "../utils/customFabCapabilities.JPG";
+import customEncloserCapabilities from "../utils/customEncloserCapabilities.JPG";
 import industryElectric from "../utils/industryElectric.jpg";
 import background1 from "../utils/industryElectric.jpg";
 import industryConstruction from "../utils/industryConstruction.jpg";
@@ -16,16 +26,35 @@ import image10 from "../utils/typical_parts35.JPG";
 import image11 from "../utils/typical_parts3.JPG";
 import image12 from "../utils/typical_parts3.JPG";
 
-export default function TabBar(props) {
+export default function TabBarCapabilities(props) {
   const titles = [
-    "Commercial & Industrial Construction",
-    "Electric Utility",
-    "Commercial Cooling & Heating",
+    "PROTOTYPING & CONTRACT MANUFACTURING",
+    "LASER CUTTING",
+    "TURRET PUNCHING",
+    "CNC BENDING",
+    "CNC MACHINING",
+    "FORM ROLLING",
+    "WELDING",
+    "POWDER COATING, PAINTING 7 MEDIA BLASTING",
+    "ASSEMBLY",
+    "CONTROL & RELAY PANEL FABRICATION",
+    "CUSTOM FABRICATION & ENGINEERING DESIGN",
+    "CUSTOM ENCLOSURES",
   ];
   const backgrounds = {
     industryConstruction,
     industryElectric,
-    industryCooling,
+    prototypeContractManu,
+    laserCuttingCapabilities,
+    turretPunchingCapabilities,
+    cncBendingCapabilities,
+    cncMachiningCapabilities,
+    weldingCapabilities,
+    powderCoatingCapabilities,
+    assemblyCapabilities,
+    controlPanelCapabilities,
+    customFabCapabilities,
+    customEncloserCapabilities
   };
   const infos = [
     "With heavy plate fabrication capability and American Welding Society certified welding services, ABC SHEET METAL provides a wide variety of parts and assemblies used in the oil & gas industries. Products include a multitude of both on and offshore drilling rig and support equipment components. Other products include tanks, covers, brackets, shrouds, control panels, guards, guides, trays, shims, and frames.",
@@ -47,22 +76,70 @@ export default function TabBar(props) {
 
   function handleClick(value) {
         switch (value) {
-      case "Commercial & Industrial Construction":
+      case "PROTOTYPING & CONTRACT MANUFACTURING":
         setTitle(value)
-        setBackground(backgrounds.industryConstruction);
+        setBackground(backgrounds.prototypeContractManu);
         setInfo(infos[0]);
-        setImages(imageList.constructionUtility)
+        setImages(imageList.coolingUtility)
         break;
-      case "Electric Utility":
+      case "LASER CUTTING":
         setTitle(value)
-        setBackground(backgrounds.industryElectric);
-        setInfo(infos[1]);
-        setImages(imageList.electricUtility)
+        setBackground(backgrounds.laserCuttingCapabilities);
+        setInfo(infos[0]);
+        setImages(imageList.coolingUtility)
         break;
-      case "Commercial Cooling & Heating":
+      case "TURRET PUNCHING":
         setTitle(value)
-        setBackground(backgrounds.industryCooling);
-        setInfo(infos[2]);
+        setBackground(backgrounds.turretPunchingCapabilities);
+        setInfo(infos[0]);
+        setImages(imageList.coolingUtility)
+        break;
+      case "CNC BENDING":
+        setTitle(value)
+        setBackground(backgrounds.cncBendingCapabilities);
+        setInfo(infos[0]);
+        setImages(imageList.coolingUtility)
+        break;
+      case "CNC MACHINING":
+        setTitle(value)
+        setBackground(backgrounds.cncMachiningCapabilities);
+        setInfo(infos[0]);
+        setImages(imageList.coolingUtility)
+        break;
+      case "WELDING":
+        setTitle(value)
+        setBackground(backgrounds.weldingCapabilities);
+        setInfo(infos[0]);
+        setImages(imageList.coolingUtility)
+        break;
+      case "POWDER COATING, PAINTING 7 MEDIA BLASTING":
+        setTitle(value)
+        setBackground(backgrounds.powderCoatingCapabilities);
+        setInfo(infos[0]);
+        setImages(imageList.coolingUtility)
+        break;
+      case "ASSEMBLY":
+        setTitle(value)
+        setBackground(backgrounds.assemblyCapabilities);
+        setInfo(infos[0]);
+        setImages(imageList.coolingUtility)
+        break;
+      case "CONTROL & RELAY PANEL FABRICATION":
+        setTitle(value)
+        setBackground(backgrounds.controlPanelCapabilities);
+        setInfo(infos[0]);
+        setImages(imageList.coolingUtility)
+        break;
+      case "CUSTOM FABRICATION & ENGINEERING DESIGN":
+        setTitle(value)
+        setBackground(backgrounds.customFabCapabilities);
+        setInfo(infos[0]);
+        setImages(imageList.coolingUtility)
+        break;
+      case "CUSTOM ENCLOSURES":
+        setTitle(value)
+        setBackground(backgrounds.customEncloserCapabilities);
+        setInfo(infos[0]);
         setImages(imageList.coolingUtility)
         break;
       default:
@@ -127,12 +204,12 @@ const styleDivChild = {
   flexGrow: "1",
   justifyContent: "center",
   alignItems: 'center',
-  backgroundColor: 'silver',
+  backgroundColor: 'white',
 };
 const styleDivParent = {
   display: "flex",
   justifyContent: "center",
-  // padding: "0% 7%",
+  padding: "0% 7%",
   margin: '4% 0% 0% 0%'
 };
 const styleDivSmallRow = {
@@ -156,8 +233,10 @@ const buttonStyle = {
   backgroundColor: 'silver',
   borderStyle: 'none',
   padding: '5% 0%',
-  color: 'white',
+  color: 'black',
   fontWeight: 'bold',
   outline: 'none',
-  backgroundColor: 'silver'
+  backgroundColor: 'white',
+//   padding: '4% 4%',
+  margin: '4% 4%'
 }

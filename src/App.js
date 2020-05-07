@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Main from './components/pages/Main';
 import Contact from './components/pages/Contact'
 import Careers from './components/pages/Careers'
-import Services from './components/pages/Services'
+import Capabilities from './components/pages/Capabilities'
 import Portfolio from './components/pages/Portfolio'
 import Industries from './components/pages/Industries'
 
@@ -27,7 +27,7 @@ function App() {
         } />
         <Route path='/Contact' component={Contact} />
         <Route path='/Careers' component={Careers} />
-        <Route path='/Services' component={Services} />
+        <Route path='/Capabilities' component={Capabilities} />
         <Route path='/Portfolio' component={Portfolio} />
         <Route path='/Industries' component={Industries} />
 

@@ -5,7 +5,7 @@ import Gallery from '../Gallery';
 import Footer from '../FooterType2';
 import About from '../About';
 import Industries from '../Industries';
-import Capabilities from '../Capabilities';
+// import CapabilitiesDropDown from '../CapabilitiesDropDown';
 import TypicalParts from '../TypicalParts';
 import MultiCarouselPage from '../MultipleCarCapabilities';
 

@@ -51,7 +51,7 @@ import img37 from "../utils/typical_parts9.JPG";
 import CapabilitiesHighlights from "./CapabilitiesHighlights";
 
 
-class CollapsePage extends Component {
+class CapabilitiesDropDown extends Component {
   constructor(){
     super()
     this.state = {
@@ -637,7 +637,7 @@ class CollapsePage extends Component {
   }
 }
 
-export default CollapsePage;
+export default CapabilitiesDropDown;
 
 const style = {
   display: "flex",

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TabBar from "./TabBar.js";
-import TabButton from "./TabButton.js";
+
 
 export class IndustriesExplained extends Component {
   render() {
@@ -13,12 +13,6 @@ export class IndustriesExplained extends Component {
             "Commercial Cooling & Heating",
           ]}
         />
-        {/* <TabButton
-          data={[
-            "Electric Utility",
-            "Krage manufactures components and assemblies used by various electrical and electronic equipment OEMs. Products include PCB holders and brackets, electrical enclosures, automated assembly equipment covers and frames, robotic machine frames and enclosures, motor mount brackets, adapter plates, and electronic frames and chassis, and machine tool covers.",
-          ]}
-        /> */}
       </div>
     );
   }
