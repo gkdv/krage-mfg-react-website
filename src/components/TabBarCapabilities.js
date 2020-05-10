@@ -35,7 +35,7 @@ export default function TabBarCapabilities(props) {
     "CNC MACHINING",
     "FORM ROLLING",
     "WELDING",
-    "POWDER COATING, PAINTING 7 MEDIA BLASTING",
+    "POWDER COATING",
     "ASSEMBLY",
     "CONTROL & RELAY PANEL FABRICATION",
     "CUSTOM FABRICATION & ENGINEERING DESIGN",
@@ -112,7 +112,7 @@ export default function TabBarCapabilities(props) {
         setInfo(infos[0]);
         setImages(imageList.coolingUtility)
         break;
-      case "POWDER COATING, PAINTING 7 MEDIA BLASTING":
+      case "POWDER COATING":
         setTitle(value)
         setBackground(backgrounds.powderCoatingCapabilities);
         setInfo(infos[0]);
@@ -155,7 +155,7 @@ export default function TabBarCapabilities(props) {
 
   const tabs = props.Tabs;
   const listTabs = tabs.map((tab) => (
-    <div key={tab.toString()} data={tab.toString()} style={styleDivChild}>
+    <div className='col-md' key={tab.toString()} data={tab.toString()} style={styleDivChild}>
       <button style={buttonStyle} value={tab} onClick={(e) => handleClick(e.target.value)}>
         {tab}
       </button>
@@ -204,13 +204,16 @@ const styleDivChild = {
   flexGrow: "1",
   justifyContent: "center",
   alignItems: 'center',
-  backgroundColor: 'white',
+  backgroundColor: 'silver',
+  borderStyle: 'outset'
 };
 const styleDivParent = {
   display: "flex",
   justifyContent: "center",
-  padding: "0% 7%",
-  margin: '4% 0% 0% 0%'
+  // flexDirection: 'column',
+  // padding: "0% 7%",
+  margin: '4% 0% 0% 0%',
+
 };
 const styleDivSmallRow = {
   display: "flex",
@@ -237,6 +240,8 @@ const buttonStyle = {
   fontWeight: 'bold',
   outline: 'none',
   backgroundColor: 'white',
-//   padding: '4% 4%',
-  margin: '4% 4%'
+//   padding: '4% 4%', 
+  margin: '4% 4%',
+  backgroundColor: 'silver'
+    // backgroundImage: 'linear-gradient(silver , white)',
 }

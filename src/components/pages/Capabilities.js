@@ -20,7 +20,7 @@ export class Capabilities extends Component {
             "CNC MACHINING",
             "FORM ROLLING",
             "WELDING",
-            "POWDER COATING, PAINTING 7 MEDIA BLASTING",
+            "POWDER COATING",
             "ASSEMBLY",
             "CONTROL & RELAY PANEL FABRICATION",
             "CUSTOM FABRICATION & ENGINEERING DESIGN",
