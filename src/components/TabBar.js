@@ -39,10 +39,10 @@ export default function TabBar(props) {
     constructionUtility: [image9, image10, image11, image12],
   };
 
-  const [title, setTitle] = useState(titles[0]);
-  const [background, setBackground] = useState(backgrounds.industryConstruction);
-  const [info, setInfo] = useState(infos[0]);
-  const [images, setImages] = useState(imageList.constructionUtility);
+  const [title, setTitle] = useState(titles[1]);
+  const [background, setBackground] = useState(backgrounds.industryElectric);
+  const [info, setInfo] = useState(infos[1]);
+  const [images, setImages] = useState(imageList.electricUtility);
 
 
   function handleClick(value) {
@@ -66,10 +66,10 @@ export default function TabBar(props) {
         setImages(imageList.coolingUtility)
         break;
       default:
-        setTitle(titles[0])
-        setBackground(backgrounds.industryConstruction);
-        setInfo(infos[0]);
-        setImages(imageList.constructionUtility)
+        setTitle(titles[1])
+        setBackground(backgrounds.industryElectric);
+        setInfo(infos[1]);
+        setImages(imageList.electricUtility)
         console.log("default switch case");
     }
   }

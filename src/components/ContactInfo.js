@@ -51,6 +51,8 @@ export class ContactInfo extends Component {
                     Reach out to or our sales and design team via email. We'll
                     get back to you with how our services can help you.
                   </p>
+                
+                    <br />
                   <a href="mailto:sales@kragemanufacturing.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                     email us
                   </a>

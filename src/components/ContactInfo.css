@@ -11,7 +11,8 @@
     align-items: center;
     flex-direction: column;
     padding: 10% 0%;
-    background: url(../utils/dark-paths.png);
+    background: url(../utils/shopFloorNorth.JPG);
+    background-size: cover;
     width: auto;
     color: white;
     font-size: 30px;

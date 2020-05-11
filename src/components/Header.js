@@ -21,27 +21,27 @@ export class Header extends Component {
           </div>
         </div>
         <nav className="navbar navbar-expand-lg navbar-light col-sm-12">
-          <a href="/">
+          <a style={styleLogo} href="/">
             <img className="company-logo" src={logo} alt="logo"></img>
           </a>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ml-auto">
-              <a className="nav-item nav-link" href="/">
+              <a className="nav-item nav-link" style={styleText} href="/">
                 About<span className="sr-only">(current)</span>
               </a>
-              <a className="nav-item nav-link" href="/Industries">
+              <a className="nav-item nav-link" style={styleText} href="/Industries">
                 Industries
               </a>
-              <a className="nav-item nav-link" href="/Capabilities">
+              <a className="nav-item nav-link" style={styleText} href="/Capabilities">
                 Capabilities
               </a>
-              <a className="nav-item nav-link" href="/Portfolio">
+              <a className="nav-item nav-link" style={styleText} href="/Portfolio">
                 Portfolio
               </a>
-              <a className="nav-item nav-link" href="/Careers">
+              <a className="nav-item nav-link" style={styleText} href="/Careers">
                 Careers
               </a>
-              <a className="nav-item nav-link" href="/Contact">
+              <a className="nav-item nav-link" style={styleText} href="/Contact">
                 Contact
               </a>
             </div>
@@ -53,3 +53,11 @@ export class Header extends Component {
 }
 
 export default Header;
+
+const styleText = {
+ fontSize: '20px'
+}
+
+const styleLogo = {
+  marginLeft: '2%'
+}

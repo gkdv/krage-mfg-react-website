@@ -60,10 +60,10 @@ export default function TabBarCapabilities(props) {
   const infos = [
     "With heavy plate fabrication capability and American Welding Society certified welding services, ABC SHEET METAL provides a wide variety of parts and assemblies used in the oil & gas industries. Products include a multitude of both on and offshore drilling rig and support equipment components. Other products include tanks, covers, brackets, shrouds, control panels, guards, guides, trays, shims, and frames.",
     "Trumpf CO2 lasers with automatic load and unload operate unattended 24 hours/day. The laser is capable of cutting0.50″ steel. Murata and Strippit turret presses can accommodate 60″ wide material and punch up to 0.25″ thick material. The Murata is equipped with an automatic load and piece part unload for lights out operation. Efficient part nesting insures maximum sheet usage.",
-    "need info for turret punching",
+    "need info for turret punching // need info for turret punching //need info for turret punching //need info for turret punching //need info for turret punching //need info for turret punching //need info for turret punching //need info for turret punching //need info for turret punching //need info for turret punching //need info for turret punching //need info for turret punching //need info for turret punching //need info for turret punching //",
     "Krage Manufacturing utilizes Bystronic Xpert and PR press brakes. Each brake is equipped with 4 – 6 axis backgauging, hydraulic clamping, automatic crowning and material thickness compensation. The largest is an Xpert 250 ton 13.5′ brake. All brakes are programmed in the office to insure maximum floor productivity and effective first part quality. We have an experienced group of operators that along with seasoned programmers can handle the most difficult bending applications.",
-    "need info for cnc machining",
-    "need info for form rolling",
+    "need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // ",
+    "need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // need info for cnc machining // ",
     "Several weld stations are operated by experienced welders utilizing Lincoln Power MIG welders and Invertec TIG welders. Krage Mfg. excels at welding galvanized steel along with most other types of material. The Motoman ArcWorld robotic welding cell can accommodate a 10′ long part with a 1,100 lb. part capacity. The robotic cell has a high speed indexing turntable and rotary part positioner.",
     "Krage Mfg. has a complete powder coating and painting operation. Skilled coaters operate Nordson powder guns in multiple booths. A three stage phosphate pretreatment system insures excellent coating adhesion and corrosion protection. Salt spray tests exceed 1,000 hours for several powder applications. Multiple ovens are employed with capacities of 10’H x 10’W x 16′ or more in length. Liquid painting operations use the same pretreatment method as powder coating. A conveyor system provides an efficient part flow from pretreatment through paint and into part drying. Media blasting is used for previously coated parts or to remove mill scale. The blast booth can handle large frames up to 16′ long. Longer parts can be handled as well. All blasted parts are pretreated with the 3 stage phosphate system to again insure maximum coating adhesion and corrosion protection.",
     "After Krage Mfg. has fabricated your parts we have the in house capability of assembling your products. We will manage your unique assembly requirements and integrate specified purchased parts into the final assembly. Whether a simple or complex turn-key assembly Krage Mfg. has a team of mechanical and electrical technicians to handle your requirements.",
@@ -79,10 +79,10 @@ export default function TabBarCapabilities(props) {
     constructionUtility: [image9, image10, image11, image12],
   };
 
-  const [title, setTitle] = useState(titles[0]);
-  const [background, setBackground] = useState(backgrounds.industryConstruction);
-  const [info, setInfo] = useState(infos[0]);
-  const [images, setImages] = useState(imageList.constructionUtility);
+  const [title, setTitle] = useState(titles[1]);
+  const [background, setBackground] = useState(backgrounds.laserCuttingCapabilities);
+  const [info, setInfo] = useState(infos[1]);
+  const [images, setImages] = useState(imageList.electricUtility);
 
 
   function handleClick(value) {
@@ -160,10 +160,10 @@ export default function TabBarCapabilities(props) {
         setImages(imageList.coolingUtility)
         break;
       default:
-        setTitle(titles[0])
-        setBackground(backgrounds.industryConstruction);
-        setInfo(infos[0]);
-        setImages(imageList.constructionUtility)
+        setTitle(titles[1])
+        setBackground(backgrounds.laserCuttingCapabilities);
+        setInfo(infos[1]);
+        setImages(imageList.electricUtility)
         console.log("default switch case");
     }
   }
@@ -223,8 +223,9 @@ const styleDivChild = {
   justifyContent: "center",
   alignItems: 'center',
   backgroundColor: 'lightgrey',
-  // borderStyle: 'ridge',
-  borderBottom: '6px solid #011730',
+  borderStyle: 'outset',
+  // borderBottom: '6px solid white',
+  // borderBottom: '6px solid #011730',
   // borderBottom: '6px solid #01173f00',
   // borderColor: 'silver',
   borderRadius: '5px',
@@ -260,7 +261,7 @@ const buttonStyle = {
 
   borderStyle: 'none',
   padding: '5% 0%',
-  color: 'black',
+  color: 'white',
   fontWeight: 'bold',
   outline: 'none',
   backgroundColor: 'lightgrey',

@@ -1,15 +1,26 @@
 import React, { Component } from "react";
 import photo from '../utils/murataColorBlue.JPG'
+import photo2 from '../utils/aboutFloorPhoto.JPG'
 
 export class About extends Component {
   render() {
+
+    const aboutImageRightStyle = {
+      // padding: "15% 10%",
+      backgroundImage: `url(${photo2})`,
+      backgroundSize: "cover",
+      // color: "white",
+      // fontWeight: "bold",
+    };
+
     return (
       <div style={backgroundStyle}>
           <div className='col-sm-3' style={bar}>.</div>
         <div>
           <h1 style={headerStyle}>About Us</h1>
         </div>
-        <div className='col-md-8' style={contentStyle}>
+        <div className='row'>
+        <div className='col-md-6' style={contentStyle}>
           <p>
             For years Krage Manufacturing has been offering customers various
             manufacturing and engineering solutions. We have exceptional
@@ -40,6 +51,8 @@ export class About extends Component {
             innovative ideas and efficient manufacturing processes. We want you
             to be the best in your industry!
           </p>
+        </div>
+        <div className="col-md-4" style={aboutImageRightStyle}></div>
         </div>
       </div>
     );
