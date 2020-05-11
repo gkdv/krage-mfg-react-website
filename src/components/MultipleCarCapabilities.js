@@ -50,7 +50,7 @@ const MultiCarouselPage = () => {
             <MDBCarouselItem itemId="1" style={itemStyle}>
               <MDBRow style={rowStyle}>
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                  <a href="/Services">
+                  <a href="/Capabilities">
                     <MDBCardImage
                       style={imageStyle}
                       className="img-fluid"
@@ -65,7 +65,7 @@ const MultiCarouselPage = () => {
                 </MDBCard>
                 {/* TURRET PUNCHING &  */}
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <a href="/Services">
+                <a href="/Capabilities">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
@@ -78,7 +78,7 @@ const MultiCarouselPage = () => {
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <a href="/Services">
+                <a href="/Capabilities">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
@@ -95,7 +95,7 @@ const MultiCarouselPage = () => {
             <MDBCarouselItem itemId="2" style={itemStyle}>
               <MDBRow style={rowStyle}>
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <a href="/Services">
+                <a href="/Capabilities">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
@@ -108,7 +108,7 @@ const MultiCarouselPage = () => {
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <a href="/Services">
+                <a href="/Capabilities">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
@@ -121,7 +121,7 @@ const MultiCarouselPage = () => {
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <a href="/Services">
+                <a href="/Capabilities">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
@@ -138,7 +138,7 @@ const MultiCarouselPage = () => {
             <MDBCarouselItem itemId="3" style={itemStyle}>
               <MDBRow style={rowStyle}>
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <a href="/Services">
+                <a href="/Capabilities">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
@@ -151,7 +151,7 @@ const MultiCarouselPage = () => {
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <a href="/Services">
+                <a href="/Capabilities">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
@@ -164,7 +164,7 @@ const MultiCarouselPage = () => {
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <a href="/Services">
+                <a href="/Capabilities">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
@@ -183,7 +183,7 @@ const MultiCarouselPage = () => {
             <MDBCarouselItem itemId="4" style={itemStyle}>
               <MDBRow style={rowStyle}>
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <a href="/Services">
+                <a href="/Capabilities">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
@@ -198,7 +198,7 @@ const MultiCarouselPage = () => {
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <a href="/Services">
+                <a href="/Capabilities">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"
@@ -211,7 +211,7 @@ const MultiCarouselPage = () => {
                 </MDBCard>
 
                 <MDBCard className="col-sm-3" style={cardStyle}>
-                <a href="/Services">
+                <a href="/Capabilities">
                   <MDBCardImage
                     style={imageStyle}
                     className="img-fluid"

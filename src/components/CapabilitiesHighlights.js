@@ -23,7 +23,7 @@ class CapabilitiesHighlights extends Component {
 
   componentWillMount() {
     switch (this.props.props) {
-      case "collapse1":
+      case "PROTOTYPING":
         this.setState({
           capabilityType: "Prototyping & Contract Manufacturing Key Features",
           equipmentList: [],
@@ -31,7 +31,7 @@ class CapabilitiesHighlights extends Component {
           industriesServed: [],
         });
         break;
-      case "collapse2":
+      case "LASER CUTTING":
         this.setState({
           capabilityType: "Laser Cutting Key Features",
           equipmentList: ['Bystronic BySprint Fiber Laser with Bytrans Extended loader and ByTower material storage', 'Trumpf TruLaser 2030'],
@@ -39,7 +39,7 @@ class CapabilitiesHighlights extends Component {
           industriesServed: ['Cooling and Heating', 'Electrical Utility', 'Mining', 'Building Materials & Construction', 'Industrial Design', 'Oil & Gas', 'Engineering'],
         });
         break;
-      case "collapse3":
+      case "TURRET PUNCHING":
         this.setState({
           capabilityType: "Turret Punching Key Features",
           equipmentList: ['Muratec FG-Series Turret Press', 'Strippit LVD Smart Stroke Turret Press'],
@@ -47,7 +47,7 @@ class CapabilitiesHighlights extends Component {
           industriesServed: ['Cooling and Heating', 'Electrical Utility', 'Mining', 'Building Materials & Construction', 'Industrial Design', 'Oil & Gas', 'Engineering'],
         });
         break;
-      case "collapse4":
+      case "CNC BENDING":
         this.setState({
           capabilityType: "CNC Bending Key Features",
           equipmentList: ['Bystronic Xpert 40', '(4) Bystronic Xpert 150', 'Bystronic Xpert 250'],
@@ -55,7 +55,7 @@ class CapabilitiesHighlights extends Component {
           industriesServed: ['Cooling and Heating', 'Electrical Utility', 'Mining', 'Building Materials & Construction', 'Industrial Design', 'Oil & Gas', 'Engineering'],
         });
         break;
-      case "collapse5":
+      case "CNC MACHINING":
         this.setState({
           capabilityType: "CNC Machining Key Features",
           equipmentList: ['HAAS ST 25Y Lathe', 'HAAS VF4 Mill', 'Piranha Shear press', 'AccuShear'],
@@ -63,7 +63,7 @@ class CapabilitiesHighlights extends Component {
           industriesServed: ['Cooling and Heating', 'Electrical Utility', 'Mining', 'Building Materials & Construction', 'Industrial Design', 'Oil & Gas', 'Engineering'],
         });
         break;
-      case "collapse6":
+      case "FORM ROLLING":
         this.setState({
           capabilityType: "Form Rolling Key Features",
           equipmentList: ['DAVI MCA Four Roll 2020'],
@@ -71,7 +71,7 @@ class CapabilitiesHighlights extends Component {
           industriesServed: ['Cooling and Heating', 'Electrical Utility', 'Mining', 'Building Materials & Construction', 'Industrial Design', 'Oil & Gas', 'Engineering'],
         });
         break;
-      case "collapse7":
+      case "WELDING":
         this.setState({
           capabilityType: "Welding Key Features",
           equipmentList: ['PerformArc side-by-side Robotic Welding System', 'ArcWorld By Motoman Robotic Welding System', 'MIG Welding', 'TIG Welding'],
@@ -79,7 +79,7 @@ class CapabilitiesHighlights extends Component {
           industriesServed: ['Cooling and Heating', 'Electrical Utility', 'Mining', 'Building Materials & Construction', 'Industrial Design', 'Oil & Gas', 'Engineering'],
         });
         break;
-      case "collapse8":
+      case "POWDER COATING":
         this.setState({
           capabilityType: "Powder Coating, Painting & Media Blasting Key Features",
           equipmentList: ['(3) Ovens', '(4) Powder Booths', '(3) Wash Bays'],
@@ -87,7 +87,7 @@ class CapabilitiesHighlights extends Component {
           industriesServed: ['Cooling and Heating', 'Electrical Utility', 'Mining', 'Building Materials & Construction', 'Industrial Design', 'Oil & Gas', 'Engineering'],
         });
         break;
-      case "collapse9":
+      case "ASSEMBLY":
         this.setState({
           capabilityType: "Assembly Key Features",
           equipmentList: [],
@@ -95,7 +95,7 @@ class CapabilitiesHighlights extends Component {
           industriesServed: ['Cooling and Heating', 'Electrical Utility', 'Mining', 'Building Materials & Construction', 'Industrial Design', 'Oil & Gas', 'Engineering'],
         });
         break;
-      case "collapse10":
+      case "ELECTRIC PANEL":
         this.setState({
           capabilityType: "Control & Relay Panel Fabrication Key Features",
           equipmentList: [],
@@ -103,7 +103,7 @@ class CapabilitiesHighlights extends Component {
           industriesServed: ['Cooling and Heating', 'Electrical Utility', 'Mining', 'Building Materials & Construction', 'Industrial Design', 'Oil & Gas', 'Engineering'],
         });
         break;
-      case "collapse11":
+      case "ENGINEERING DESIGN":
         this.setState({
           capabilityType: "Custom Fabrication & Engineering Design Key Features",
           equipmentList: [],
@@ -111,7 +111,7 @@ class CapabilitiesHighlights extends Component {
           industriesServed: ['Cooling and Heating', 'Electrical Utility', 'Mining', 'Building Materials & Construction', 'Industrial Design', 'Oil & Gas', 'Engineering'],
         });
         break;
-      case "collapse12":
+      case "ENCLOSURES":
         this.setState({
           capabilityType: "Custom Enclosures Key Features",
           equipmentList: [],

@@ -13,7 +13,7 @@ export class Capabilities extends Component {
         <Header />
         <TabBarCapabilities
           Tabs={[
-            "PROTOTYPING & CONTRACT MANUFACTURING",
+            "PROTOTYPING",
             "LASER CUTTING",
             "TURRET PUNCHING",
             "CNC BENDING",
@@ -22,13 +22,13 @@ export class Capabilities extends Component {
             "WELDING",
             "POWDER COATING",
             "ASSEMBLY",
-            "CONTROL & RELAY PANEL FABRICATION",
-            "CUSTOM FABRICATION & ENGINEERING DESIGN",
-            "CUSTOM ENCLOSURES",
+            "ELECTRIC PANEL",
+            "ENGINEERING DESIGN",
+            "ENCLOSURES",
           ]}
         />
         {/* <IndustriesExplained /> */}
-        <CapabilitiesDropDown />
+        {/* <CapabilitiesDropDown /> */}
         <Footer style={style} />
       </div>
     );
@@ -41,3 +41,18 @@ const style = {
   bottom: 0,
   position: "fixed"
 };
+
+
+
+// "PROTOTYPING & CONTRACT MANUFACTURING",
+// "LASER CUTTING",
+// "TURRET PUNCHING",
+// "CNC BENDING",
+// "CNC MACHINING",
+// "FORM ROLLING",
+// "WELDING",
+// "POWDER COATING",
+// "ASSEMBLY",
+// "CONTROL & RELAY PANEL FABRICATION",
+// "CUSTOM FABRICATION & ENGINEERING DESIGN",
+// "CUSTOM ENCLOSURES",
