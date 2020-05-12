@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Main from './components/pages/Main';
-import Contact from './components/pages/Contact'
 import Careers from './components/pages/Careers'
+import Contact from './components/pages/Contact'
 import Capabilities from './components/pages/Capabilities'
 import Portfolio from './components/pages/Portfolio'
 import Industries from './components/pages/Industries'
