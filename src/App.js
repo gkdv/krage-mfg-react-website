@@ -8,9 +8,6 @@ import Portfolio from './components/pages/Portfolio'
 import Industries from './components/pages/Industries'
 
 
-import './App.css'
-
-
 function App() {
   return (
     <Router>
