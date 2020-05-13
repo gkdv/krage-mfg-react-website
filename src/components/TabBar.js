@@ -77,6 +77,7 @@ export default function TabBar(props) {
 
 
   const tabs = props.Tabs;
+  //comment
   const listTabs = tabs.map((tab) => (
     <div key={tab.toString()} data={tab.toString()} style={styleDivChild}>
       <button style={buttonStyle} value={tab} onClick={(e) => handleClick(e.target.value)}>
