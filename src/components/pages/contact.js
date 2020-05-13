@@ -14,7 +14,8 @@ export class Contact extends Component {
                 
                 <GoogleMap />
                 <ContactInfo />
-                <Footer style={style}/>
+                {/* <Footer style={style}/> */}
+                <Footer />
                 
             </div>
         )
@@ -23,7 +24,7 @@ export class Contact extends Component {
 
 export default Contact
 
-const style = {
-    bottom: 0,
-    position: 'fixed',
-}
+// const style = {
+//     bottom: 0,
+//     position: 'fixed',
+// }
