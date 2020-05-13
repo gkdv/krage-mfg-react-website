@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import Main from './components/pages/Main';
 import Careers from './components/pages/Careers'
 import Contact from './components/pages/Contact'
@@ -10,7 +10,7 @@ import Industries from './components/pages/Industries'
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <>
         <Route exact path='/' render={ () =>
           <React.Fragment>
@@ -24,7 +24,7 @@ function App() {
         <Route path='/Industries' component={Industries} />
 
       </>
-    </Router>
+    </HashRouter>
   );
 }
 
