@@ -23,7 +23,7 @@ export class Contact extends Component {
 }
 
 export default Contact
-
+// useless comment
 // const style = {
 //     bottom: 0,
 //     position: 'fixed',
