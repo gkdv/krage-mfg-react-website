@@ -22,7 +22,7 @@ export class GoogleMap extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyCSN9xMOzHjUr6XobfDrAPWT08R2oY6M_I"
+  apiKey: process.env.GOOGLEAPIKEY
 })(GoogleMap);
 
 
