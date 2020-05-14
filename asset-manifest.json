@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/krage-mfg-react-website/static/css/main.4c27cbd1.chunk.css",
-    "main.js": "/krage-mfg-react-website/static/js/main.9001e45e.chunk.js",
-    "main.js.map": "/krage-mfg-react-website/static/js/main.9001e45e.chunk.js.map",
+    "main.js": "/krage-mfg-react-website/static/js/main.95fa29a1.chunk.js",
+    "main.js.map": "/krage-mfg-react-website/static/js/main.95fa29a1.chunk.js.map",
     "runtime-main.js": "/krage-mfg-react-website/static/js/runtime-main.c4f821e9.js",
     "runtime-main.js.map": "/krage-mfg-react-website/static/js/runtime-main.c4f821e9.js.map",
     "static/js/2.f5008753.chunk.js": "/krage-mfg-react-website/static/js/2.f5008753.chunk.js",
     "static/js/2.f5008753.chunk.js.map": "/krage-mfg-react-website/static/js/2.f5008753.chunk.js.map",
     "index.html": "/krage-mfg-react-website/index.html",
-    "precache-manifest.37f94b38064251ac2ade04ff582171c4.js": "/krage-mfg-react-website/precache-manifest.37f94b38064251ac2ade04ff582171c4.js",
+    "precache-manifest.646e63419b1e22ebcabe70d491ad26ae.js": "/krage-mfg-react-website/precache-manifest.646e63419b1e22ebcabe70d491ad26ae.js",
     "service-worker.js": "/krage-mfg-react-website/service-worker.js",
     "static/css/main.4c27cbd1.chunk.css.map": "/krage-mfg-react-website/static/css/main.4c27cbd1.chunk.css.map",
     "static/js/2.f5008753.chunk.js.LICENSE.txt": "/krage-mfg-react-website/static/js/2.f5008753.chunk.js.LICENSE.txt",
@@ -114,6 +114,6 @@
     "static/js/runtime-main.c4f821e9.js",
     "static/js/2.f5008753.chunk.js",
     "static/css/main.4c27cbd1.chunk.css",
-    "static/js/main.9001e45e.chunk.js"
+    "static/js/main.95fa29a1.chunk.js"
   ]
 }

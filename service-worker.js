@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/krage-mfg-react-website/precache-manifest.37f94b38064251ac2ade04ff582171c4.js"
+  "/krage-mfg-react-website/precache-manifest.646e63419b1e22ebcabe70d491ad26ae.js"
 );
 
 self.addEventListener('message', (event) => {

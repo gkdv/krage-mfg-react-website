@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9af04ba28ee8245a728053ee896c3fc",
+    "revision": "f7a2fdf17e155ce56eadaadad86e22c1",
     "url": "/krage-mfg-react-website/index.html"
   },
   {
-    "revision": "28b0a66b92c37db01d87",
+    "revision": "c94dfe6c96a8ee77feb3",
     "url": "/krage-mfg-react-website/static/css/main.4c27cbd1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/krage-mfg-react-website/static/js/2.f5008753.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "28b0a66b92c37db01d87",
-    "url": "/krage-mfg-react-website/static/js/main.9001e45e.chunk.js"
+    "revision": "c94dfe6c96a8ee77feb3",
+    "url": "/krage-mfg-react-website/static/js/main.95fa29a1.chunk.js"
   },
   {
     "revision": "c2401b8cbe03fa3ffbf3",
