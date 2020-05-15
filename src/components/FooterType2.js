@@ -70,7 +70,7 @@ export class FooterType2 extends Component {
     );
   }
 }
-
+// comment for push
 export default FooterType2;
 const row1Style = {
   padding: "10%",
