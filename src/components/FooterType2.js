@@ -93,11 +93,15 @@ const h1Style = {
   color: "white",
   fontWeight: "bold",
   fontSize: "70px",
+  alignItems: "center",
+  justifyContent: "center",
 };
 const h2Style = {
   color: "white",
   fontWeight: "bold",
   fontSize: "130%",
+  alignItems: "center",
+  justifyContent: "center",
 };
 
 const socialMedia = {
@@ -130,14 +134,14 @@ const infoTextStyle = {
   fontSize: "110%",
 };
 const styleButton = {
-  backgroundColor: 'white',
-  color: 'silver',
-  borderColor: 'silver',
-  display: 'flex',
-  justifyContent: 'center',
-  transitionDuration: '0.6s',
-  marginLeft: '30%',
-  marginRight: '30%',
+  backgroundColor: "white",
+  color: "silver",
+  borderColor: "silver",
+  display: "flex",
+  justifyContent: "center",
+  transitionDuration: "0.6s",
+  marginLeft: "30%",
+  marginRight: "30%",
   backgroundColor: "transparent",
-  fontWeight: "bold"
-}
+  fontWeight: "bold",
+};
