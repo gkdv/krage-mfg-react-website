@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-// import plant_floor_2_400x300 from "../utils/plant_floor_3_240x180.JPG";
-// import plant_floor_2_400x300 from "../utils/electricUtility_400x267.jpg";
-// import architecture400x267 from "../utils/architecture400_267.jpg";
-// import commercialAC from "../utils/commercialAC.jpg";
-// import construction400x244 from "../utils/construction400x244.jpg";
 import construction722x440 from "../utils/construction722x440.jpg";
 import utilityElectrical722x481 from "../utils/utilityElectrical722x481.jpg";
 import airCondition722x428 from "../utils/airCondition722x428.jpg";
 import architecture722x481 from "../utils/architecture722x481.jpg";
-// import Card from "./Card";
+
 
 import {
   MDBCarousel,
