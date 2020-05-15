@@ -8,8 +8,8 @@ export class FooterType2 extends Component {
     return (
       <div>
         <div className="row" style={row1Style}>
-          <text style={h1Style}>Ready to get started?</text>
-          <text style={h2Style}>
+          <text className='col-md-12' style={h1Style}>Ready to get started?</text>
+          <text className='col-md-12' style={h2Style}>
             Contact us today and we'll put together a quote tailored to your
             needs.
           </text>
@@ -95,6 +95,7 @@ const h1Style = {
   fontSize: "70px",
   alignItems: "center",
   justifyContent: "center",
+  textAlign: 'center'
 };
 const h2Style = {
   color: "white",
@@ -102,6 +103,7 @@ const h2Style = {
   fontSize: "130%",
   alignItems: "center",
   justifyContent: "center",
+  textAlign: 'center'
 };
 
 const socialMedia = {
