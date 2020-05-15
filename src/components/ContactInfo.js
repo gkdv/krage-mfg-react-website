@@ -21,6 +21,7 @@ export class ContactInfo extends Component {
                   <h5 className="card-title" id="title-content-style">
                     <img
                       className="social-media"
+                      style={socialMediaStyle}
                       src={phone_1}
                       alt="phone"
                     ></img>
@@ -42,6 +43,7 @@ export class ContactInfo extends Component {
                   <h5 className="card-title" id="title-content-style">
                     <img
                       className="social-media"
+                      style={socialMediaStyle}
                       src={email_1}
                       alt="phone"
                     ></img>
@@ -53,7 +55,7 @@ export class ContactInfo extends Component {
                   </p>
                 
                     <br />
-                  <a href="mailto:sales@kragemanufacturing.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                  <a href="mailto:sales@kragemanufacturing.com" target="_blank" rel="noopener noreferrer" style={styleButton} className="btn btn-primary">
                     email us
                   </a>
                 </div>
@@ -69,5 +71,24 @@ export class ContactInfo extends Component {
 export default ContactInfo;
 
 const cardStyle = {
-  backgroundImage: 'linear-gradient(silver , white)'
+  backgroundImage: 'linear-gradient(silver , white)',
+  position: 'relative',
+  bottom: '40px',
+  margin: '0 10%'
+}
+const styleButton = {
+  backgroundColor: 'white',
+  color: 'silver',
+  borderColor: 'silver',
+  display: 'flex',
+  justifyContent: 'center',
+  transitionDuration: '0.6s',
+  marginLeft: '30%',
+  marginRight: '30%'
+}
+const socialMediaStyle = {
+  margin: '5px',
+  height: '20px',
+  width: '20px',
+  borderRadius: '5%'
 }

@@ -10,21 +10,21 @@ export class Header extends Component {
       <div>
         <div className="row" id="top-break">
           <div className="col-sm-12">
-            <div id="socialMedia-header">
+            <div id="socialMedia-header" style={socialMediaHeaderStyle}>
               <a href="https://www.linkedin.com/company/krage-manufacturing-llc/about/">
-                <img className="social-media" src={linkedin} alt="logo"></img>
+                <img className="social-media" style={socialMediaStyle} src={linkedin} alt="logo"></img>
               </a>
               <a href="https://www.facebook.com/pages/Krage-Manufacturing/169572146393723">
-                <img className="social-media" src={facebook} alt="logo"></img>
+                <img className="social-media" src={facebook} style={socialMediaStyle} alt="logo"></img>
               </a>
             </div>
           </div>
         </div>
-        <nav className="navbar navbar-expand-lg navbar-light col-sm-12">
+        <nav className="navbar navbar-expand-lg navbar-light col-sm-12" style={navbarStyle}>
           <a style={styleLogo} href="/">
-            <img className="company-logo" src={logo} alt="logo"></img>
+            <img className="company-logo" style={companyLogo} src={logo} alt="logo"></img>
           </a>
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup" style={altMarkupStyle}>
             <div className="navbar-nav ml-auto">
               <a className="nav-item nav-link" style={styleText} href="/">
                 About<span className="sr-only">(current)</span>
@@ -55,9 +55,44 @@ export class Header extends Component {
 export default Header;
 
 const styleText = {
- fontSize: '20px'
+ fontSize: '20px',
+
+ marginBottom: '0em',
+ paddingBottom: '0em'
 }
 
 const styleLogo = {
   marginLeft: '2%'
+}
+const companyLogo = {
+  height: 'auto',
+  width: '250px',
+  borderRadius: '5%',
+  paddingBottom: '0px'
+}
+
+const navbarStyle = {
+  backgroundImage: 'linear-gradient(lightgrey , white)',
+  backgroundImage: 'linear-gradient(left to right, white , black)',
+  paddingBottom: '3%'
+}
+
+const socialMediaStyle = {
+  margin: '5px',
+  height: '20px',
+  width: '20px',
+  borderRadius: '5%'
+}
+
+const socialMediaHeaderStyle = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'flex-end',
+  paddingRight: '2%',
+  paddingBottom: '0.5%',
+  paddingTop: '0.5%'
+}
+
+const altMarkupStyle = {
+  marginTop: 'auto'
 }

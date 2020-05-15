@@ -11,7 +11,6 @@ import Industries from './components/pages/Industries'
 function App() {
   return (
     <Router>
-  
         <Route exact path='/' render={ () =>
           <React.Fragment>
             <Main />
@@ -22,7 +21,6 @@ function App() {
         <Route path='/Capabilities' component={Capabilities} />
         <Route path='/Portfolio' component={Portfolio} />
         <Route path='/Industries' component={Industries} />
-
     </Router>
   );
 }

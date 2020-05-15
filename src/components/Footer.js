@@ -9,7 +9,7 @@ export class Footer extends Component {
   render() {
     return (
       <div>
-        <div className="container">
+        <div className="container" style={styleContainer}>
           <div className="row" id="top-row">
             <div className="col" id="connect-logo-div">
               <img
@@ -55,6 +55,7 @@ export class Footer extends Component {
                   className="company-logo-bottom"
                   src={Krage_Logo}
                   alt="logo"
+                  style={companyLogoStyle}
                 ></img>
               </a>
             </div>
@@ -70,12 +71,12 @@ export class Footer extends Component {
                 krage@kragemanufacturing.com
               </p>
             </div>
-            <div className="col" id="socialMedia">
+            <div className="col" id="socialMedia" style={divSocialMedia}>
               <a href="https://www.linkedin.com/company/krage-manufacturing-llc/about/">
-                <img className="social-media" src={linkedin} alt="logo"></img>
+                <img className="social-media" style={styleSocialMedia} src={linkedin} alt="logo"></img>
               </a>
               <a href="https://www.facebook.com/pages/Krage-Manufacturing/169572146393723">
-                <img className="social-media" src={facebook} alt="logo"></img>
+                <img className="social-media" style={styleSocialMedia} src={facebook} alt="logo"></img>
               </a>
             </div>
           </div>
@@ -86,3 +87,25 @@ export class Footer extends Component {
 }
 
 export default Footer;
+
+const companyLogoStyle = {
+  height: 'auto',
+  width: '250px',
+  borderRadius: '5%',
+  paddingTop: '30px',
+  paddingBottom: '40px'
+}
+const styleSocialMedia = {
+  margin: '5px',
+  height: '30px',
+  width: '30px',
+  borderRadius: '5%'
+}
+const divSocialMedia = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center'
+}
+const styleContainer = {
+  maxWidth: '100%'
+}

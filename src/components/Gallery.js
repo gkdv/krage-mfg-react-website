@@ -19,7 +19,7 @@ export class Gallery extends Component {
   render() {
     return (
 
-        <MDBContainer id="gallery-container">
+        <MDBContainer id="gallery-container" style={galleryContainerStyle}>
           <MDBCarousel
             activeItem={1}
             length={3}
@@ -64,3 +64,10 @@ export class Gallery extends Component {
 }
 
 export default Gallery;
+
+const galleryContainerStyle = {
+  paddingLeft: '0px',
+  paddingRight: '0px',
+  position: 'sticky',
+  maxWidth: '90%'
+}

@@ -50,7 +50,7 @@ export class Industries extends Component {
               <div className='col-sm-6'>
                 <h1 style={rightHeaderStyle}>Commercial & Industrial Construction</h1>
                 <h2 style={rightTextStyle}>From OEM equipment parts to wall paneling and partitions, Krage Mfg. delivers an array of building material solutions.</h2>
-                <a href="/Industries" rel="noopener noreferrer" className="btn btn-primary">
+                <a href="/Industries" rel="noopener noreferrer" className="btn btn-primary" style={styleButton}>
                     Learn More
                   </a>
               </div>
@@ -70,7 +70,7 @@ export class Industries extends Component {
               <div className='col-sm-6'>
                 <h1 style={rightHeaderStyle}>Electric Utility</h1>
                 <h2 style={rightTextStyle}>Our electronic equipment for OEMs includes PCB holders and brackets, electrical enclosures, equipment covers and frames, and more.</h2>
-                <a href="/Industries" rel="noopener noreferrer" className="btn btn-primary">
+                <a href="/Industries" rel="noopener noreferrer" className="btn btn-primary" style={styleButton}>
                     Learn More
                   </a>
               </div>
@@ -89,7 +89,7 @@ export class Industries extends Component {
               <div className='col-sm-6'>
                 <h1 style={rightHeaderStyle}>Commercial Cooling and Heating</h1>
                 <h2 style={rightTextStyle}>From high temperature burner and oven assemblies, to extreme low temperature cryogenic tanks and components, ABC can meet the needs of this industry.</h2>
-                <a href="/Industries" rel="noopener noreferrer" className="btn btn-primary">
+                <a href="/Industries" rel="noopener noreferrer" className="btn btn-primary" style={styleButton}>
                     Learn More
                   </a>
               </div>
@@ -169,6 +169,18 @@ const rightTextStyle = {
   margin: '3% 0% 0% 0%',
   paddingBottom: '6%',
   color: 'silver'
+}
+const styleButton = {
+  backgroundColor: 'white',
+  color: 'silver',
+  borderColor: 'silver',
+  display: 'flex',
+  justifyContent: 'center',
+  transitionDuration: '0.6s',
+  marginLeft: '30%',
+  marginRight: '30%',
+  backgroundColor: "transparent",
+  fontWeight: "bold"
 }
 
 

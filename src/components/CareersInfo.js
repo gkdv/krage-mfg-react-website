@@ -43,6 +43,7 @@ export class CareersInfo extends Component {
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
+            style={styleButton}
           >
             Apply here
           </a>
@@ -100,3 +101,16 @@ export class CareersInfo extends Component {
 }
 
 export default CareersInfo;
+
+const styleButton = {
+  backgroundColor: 'white',
+  color: 'silver',
+  borderColor: 'silver',
+  display: 'flex',
+  justifyContent: 'center',
+  transitionDuration: '0.6s',
+  marginLeft: '30%',
+  marginRight: '30%',
+  // backgroundColor: "transparent",
+  fontWeight: "bold"
+}

@@ -1,38 +1,37 @@
-.company-logo {
+/* .company-logo {
     height: auto;
     width: 250px;
     border-radius: 5%;
     padding-bottom: 0px;
-}
-.navbar {
-    /* background-color: white; */
-    /* background: url(../utils/subtle_zebra_3d.png); */
+} */
+/* .navbar {
     background-image: linear-gradient(lightgrey , white);
     background-image: linear-gradient(left to right, white , black);
     padding-bottom: 3%
-}
-#top-break {
-    /* background-image: linear-gradient(right to left, white , black); */
-}
-.social-media {
+} */
+
+
+/* .social-media {
     margin: 5px;
     height: 20px;
     width: 20px;
     border-radius: 5%;
-}
-#socialMedia-header {
+} */
+
+/* #socialMedia-header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-right: 2%;
     padding-bottom: 0.5%;
     padding-top: 0.5%;
-}
-#navbarNavAltMarkup {
+} */
+
+/* #navbarNavAltMarkup {
     margin-top: auto;
-}
-.nav-item {
+} */
+
+/* .nav-item {
     margin-bottom: 0em;
     padding-bottom: 0em;
-
-}
+} */

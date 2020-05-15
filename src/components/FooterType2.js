@@ -22,7 +22,7 @@ export class FooterType2 extends Component {
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
-            style={{backgroundColor: "transparent", fontWeight: 'bold'}}
+            style={styleButton}
           >
             Request a Quote
           </a>
@@ -78,7 +78,7 @@ const row1Style = {
   backgroundImage: `url(${footerBackground1})`,
   backgroundSize: "cover",
   display: "flex",
-//   alignItems: "center",
+  //   alignItems: "center",
   justifyContent: "center",
 };
 const row2Style = {
@@ -129,3 +129,15 @@ const infoTextStyle = {
   color: "white",
   fontSize: "110%",
 };
+const styleButton = {
+  backgroundColor: 'white',
+  color: 'silver',
+  borderColor: 'silver',
+  display: 'flex',
+  justifyContent: 'center',
+  transitionDuration: '0.6s',
+  marginLeft: '30%',
+  marginRight: '30%',
+  backgroundColor: "transparent",
+  fontWeight: "bold"
+}

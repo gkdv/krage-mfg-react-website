@@ -27,26 +27,24 @@
 #para-content-style {
     text-align: center;
 }
-.btn {
+/* .btn {
     background-color: white;
     color: silver;
     border-color: silver;
-    /* border-radius: 0%; */
     display: flex;
     justify-content: center;
     transition-duration: 0.6s;
     margin-left: 30%;
     margin-right: 30%;
-}
+} */
 .btn:hover {
     background-color: #01173f;
     color: white;
     border-color: #01173f;
 
   }
-.card {
+/* .card {
     position: relative;
     bottom: 40px;
     margin: 0 10%;
-    /* background-image: linear-gradient(silver , white); */
-}
+} */
