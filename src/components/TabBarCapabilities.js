@@ -219,7 +219,8 @@ export default function TabBarCapabilities(props) {
 
 const styleDivChild = {
   display: 'flex',
-  flexGrow: "1",
+  // flexGrow: "1",
+  flex: '0 1',
   justifyContent: "center",
   alignItems: 'center',
   backgroundColor: 'lightgrey',
@@ -238,6 +239,7 @@ const styleDivParent = {
   // flexDirection: 'column',
   padding: "3% 7%",
   margin: '4% 0% 0% 0%',
+  // flexWrap: 'nowrap'
 
 };
 const styleDivSmallRow = {
