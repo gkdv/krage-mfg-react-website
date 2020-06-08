@@ -83,7 +83,8 @@ const row1Style = {
 };
 const row2Style = {
   padding: "3%",
-  background: "linear-gradient(to right,rgba(192, 192, 192, 1), #01184100)",
+  // background: "linear-gradient(to right,rgba(192, 192, 192, 1), #01184100)",
+  background: "black",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",

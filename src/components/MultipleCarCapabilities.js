@@ -252,8 +252,9 @@ const rowStyle = {
   border: "none",
 };
 const outsideDiv = {
-  padding: "1%",
+  padding: "2%",
   backgroundColor: "white",
+  height: "900px"
 };
 const imageStyle = {
   padding: "20px",
